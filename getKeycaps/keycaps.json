@@ -1,0 +1,15 @@
+{
+    "keycaps":[
+        {
+            "id":0,
+            "manufacturer": "",
+            "sellers": [],
+            "name" : "",
+            "profile" : "",
+            "material" : "",
+            "process" : "",
+            "image": "",
+            "cherrycompatible" : true
+        }
+    ]
+}

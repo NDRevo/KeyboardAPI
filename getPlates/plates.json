@@ -1,0 +1,167 @@
+{
+    "plates": [
+        {
+            "id": 0,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/dz60-cnc-aluminum-plate",
+            "name" : "DZ60 Plate",
+            "size": "60",
+            "material" : "aluminium",
+            "colors": ["grey","gold"]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/cnc-60-aluminum-plate",
+            "name" : "60% CNC Aluminium Plate",
+            "size": "60",
+            "material" : "aluminium",
+            "colors": ["black","red","silver","cyan","blue","pink","orange","grey"]
+        },
+        {
+            "id": 2,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/brass-60-plate",
+            "name" : "Brass60 Plate",
+            "size": "60",
+            "material" : "brass",
+            "colors": ["gold"]
+        },
+        {
+            "id": 3,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/60-pc-material-plate?variant=19633279631418",
+            "name" : "Polycarbonate60 Plate",
+            "size": "60",
+            "material" : "polycarbonate",
+            "colors": ["clear"]
+        },
+        {
+            "id": 4,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/65-cnc-aluminum-plate",
+            "name" : "65% CNC Aluminium Plate",
+            "size": "65",
+            "material" : "aluminium",
+            "colors": ["grey"]
+        },
+        {
+            "id": 5,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/65-brass-plate",
+            "name" : "65% Brass Plate",
+            "size": "65",
+            "material" : "brass",
+            "colors": ["gold"]
+        },
+        {
+            "id": 6,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbdfans75-aluminum-plate",
+            "name" : "KBDFans75 Plate A",
+            "size": "75",
+            "material" : "aluminium",
+            "colors": ["silver","black"]
+        },
+        {
+            "id": 7,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/carbon-fiber-dz60rgb-hot-swap-plate",
+            "name" : "Carbon Fiber DZ60RGB",
+            "size": "60",
+            "material" : "carbon fiber",
+            "colors": ["black"]
+        },
+        {
+            "id": 8,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/carbon-fiber-60-plate-1",
+            "name" : "Carbon Fiber 60",
+            "size": "60",
+            "material" : "carbon fiber",
+            "colors": ["black"]
+        },
+        {
+            "id": 9,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbd75-brass-plate",
+            "name" : "KBD75V2 Brass Plate",
+            "size": "75",
+            "material" : "brass",
+            "colors": ["gold"]
+        },
+        {
+            "id": 10,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/65-polycarbonate-plate",
+            "name" : "Polycarbonate65 Plate",
+            "size": "65",
+            "material" : "polycarbonate",
+            "colors": ["clear"]
+        },
+        {
+            "id": 11,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbd67mkii-brass-plate",
+            "name" : "KBD67MKII Brass Plate",
+            "size": "65",
+            "material" : "brass",
+            "colors": ["gold"]
+        },
+        {
+            "id": 12,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbd75-rev2-aluminum-plate",
+            "name" : "KBD75 Plate B",
+            "size": "75",
+            "material" : "aluminium",
+            "colors": ["silver"]
+        },
+        {
+            "id": 13,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/60-wkl-half-plate",
+            "name" : "60% WKL Half-Plate ",
+            "size": "60",
+            "material" : "aluminium",
+            "colors": ["black","blue","grey","chocolate"]
+        },
+        {
+            "id": 14,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbd75-pc-plate",
+            "name" : "Polycarbonate75 Plate",
+            "size": "75",
+            "material" : "polycarbonate",
+            "colors": ["clear"]
+        },
+        {
+            "id": 15,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbdfans-kbd19x-pcb?variant=33955934863499",
+            "name" : "KBD19X Plate",
+            "size": "95",
+            "material" : "brass",
+            "colors": ["gold"]
+        },
+        {
+            "id": 16,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbd67-custom-mechanical-keyboard-plate",
+            "name" : "KBD67 V1 Plate",
+            "size": "65",
+            "material" : "brass",
+            "colors": ["gold"]
+        },
+        {
+            "id": 17,
+            "manufacturer": "KBDfans",
+            "seller" : "https://kbdfans.com/collections/plate/products/kbd8x-mkii-brass-plate",
+            "name" : "KBD8X MKII Brass Plate",
+            "size": "80",
+            "material" : "brass",
+            "colors": ["gold"]
+        }
+
+    ]
+}
