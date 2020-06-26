@@ -1,16 +1,12 @@
-
-var platesData = require('./plates.json')
-
+const platesData = require('./plates.json')
 
 exports.handler = async (event) => {
-
     if (event.httpMethod === 'GET') {
         // return {
         //     statusCode: 200,
         //     body: JSON.stringify(event)
         // }
-    return getPlatesData(event)
-
+        return getPlatesData(event)
     }
 };
 
@@ -20,18 +16,21 @@ function searchManufacturerSize(term) {
 
     })
 }
+
 function searchManufacturerMaterial(term) {
     return platesData.plates.filter(({manufacturer, material}) => {
         return (manufacturer === term.manufacturer && material === term.material)
 
     })
 }
+
 function searchSizeMaterial(term) {
     return platesData.plates.filter(({size, material}) => {
         return (material === term.material && size === term.size)
 
     })
 }
+
 function searchSizeMaterialManufacturer(term) {
     return platesData.plates.filter(({size, material, manufacturer}) => {
         return (material === term.material && size === term.size && manufacturer === term.manufacturer)
@@ -47,10 +46,7 @@ function getPlatesData(event) {
     }
     var dataArray = [];
 
-
-    
     if (event.queryStringParameters != undefined) {
-
         //ID
         if (event.queryStringParameters.id != null && Object.keys(event.queryStringParameters).length == 1) {
             data.plates.find(element => {
@@ -59,44 +55,49 @@ function getPlatesData(event) {
                 }
             })
         }
+
         //Size Material Manufacturer
         else if (
-            event.queryStringParameters.size != null 
-        && event.queryStringParameters.material != null 
-        && event.queryStringParameters.manufacturer != null && Object.keys(event.queryStringParameters).length == 3){
-            
-                let items = searchSizeMaterialManufacturer(event.queryStringParameters)
-                for(var i = 0; i < items.length; i++){
-                    dataArray.push(items[i])
-                }
+            event.queryStringParameters.size != null
+            && event.queryStringParameters.material != null
+            && event.queryStringParameters.manufacturer != null && Object.keys(event.queryStringParameters).length == 3) {
+
+            let items = searchSizeMaterialManufacturer(event.queryStringParameters)
+            for (var i = 0; i < items.length; i++) {
+                dataArray.push(items[i])
+            }
         }
+
         //Manufacturer Size
         else if (event.queryStringParameters.manufacturer != null && event.queryStringParameters.size != null
-        && Object.keys(event.queryStringParameters).length == 2) {
-            
-                let items = searchManufacturerSize(event.queryStringParameters)
-                for(var i = 0; i < items.length; i++){
-                    dataArray.push(items[i])
-                }
+            && Object.keys(event.queryStringParameters).length == 2) {
+
+            let items = searchManufacturerSize(event.queryStringParameters)
+            for (var i = 0; i < items.length; i++) {
+                dataArray.push(items[i])
+            }
         }
+
         //Manufacturer and Material
         else if (event.queryStringParameters.manufacturer != null && event.queryStringParameters.material != null
-        && Object.keys(event.queryStringParameters).length == 2) {
-            
-                let items = searchManufacturerMaterial(event.queryStringParameters)
-                for(var i = 0; i < items.length; i++){
-                    dataArray.push(items[i])
-                }
+            && Object.keys(event.queryStringParameters).length == 2) {
+
+            let items = searchManufacturerMaterial(event.queryStringParameters)
+            for (var i = 0; i < items.length; i++) {
+                dataArray.push(items[i])
+            }
         }
+
         //Size and Material
         else if (event.queryStringParameters.size != null && event.queryStringParameters.material != null
-        && Object.keys(event.queryStringParameters).length == 2) {
-            
-                let items = searchSizeMaterial(event.queryStringParameters)
-                for(var i = 0; i < items.length; i++){
-                    dataArray.push(items[i])
-                }
+            && Object.keys(event.queryStringParameters).length == 2) {
+
+            let items = searchSizeMaterial(event.queryStringParameters)
+            for (var i = 0; i < items.length; i++) {
+                dataArray.push(items[i])
+            }
         }
+
         //Manufacturer
         else if (event.queryStringParameters.manufacturer != null && Object.keys(event.queryStringParameters).length == 1) {
             data.plates.find(element => {
@@ -106,6 +107,7 @@ function getPlatesData(event) {
             })
 
         }
+
         //Size
         else if (event.queryStringParameters.size != null && Object.keys(event.queryStringParameters).length == 1) {
             data.plates.find(element => {
@@ -115,6 +117,7 @@ function getPlatesData(event) {
             })
 
         }
+
         //Material
         else if (event.queryStringParameters.material != null && Object.keys(event.queryStringParameters).length == 1) {
             data.plates.find(element => {
@@ -125,26 +128,21 @@ function getPlatesData(event) {
 
         }
 
-
         if (dataArray.length > 0) {
             var Obj = {
                 "plates": dataArray,
                 "total": platesData.plates.length,
                 "count": dataArray.length
-
             }
             return {
                 statusCode: 200,
                 body: JSON.stringify(Obj)
             }
         }
-
-
     }
 
     return {
         statusCode: 200,
         body: JSON.stringify(data)
     }
-
 }

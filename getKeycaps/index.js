@@ -20,8 +20,6 @@ function getKeycapsData(event) {
     }
     var dataArray = [];
 
-
-
     if (event.queryStringParameters != undefined) {
 
         if (event.queryStringParameters.id != null) {
@@ -62,8 +60,6 @@ function getKeycapsData(event) {
                 body: JSON.stringify(Obj)
             }
         }
-
-
     }
 
     return {
