@@ -169,5 +169,4 @@ function getPCBData(event) {
         statusCode: 200,
         body: JSON.stringify(data)
     }
-
 }
