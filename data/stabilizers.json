@@ -1,0 +1,154 @@
+{
+    "stabilizers":[
+        {
+        "id": 0,
+        "manufacturer": "KBDFans",
+        "name": "GMK Screw-In Stabilizers",
+        "sellers": ["https://kbdfans.com/collections/keyboard-stabilizer/products/gmk-screw-in-stabilizers",
+        "https://www.1upkeyboards.com/shop/parts-and-tools/parts/gmk-screw-in-stabilizers-full-size/",
+        "https://novelkeys.xyz/products/cherry-stabilizers"],
+        "color": "black",
+        "screwin": true,
+        "preclipped": false,
+        "mounttype": "both"
+        
+       },
+       {
+        "id": 1,
+        "manufacturer": "KBDFans",
+        "name": "Cherry Screw-In Stabilizers",
+        "sellers": [
+            "https://kbdfans.com/collections/keyboard-stabilizer/products/cherry-screw-in-stabilizer",
+        "https://kprepublic.com/products/black-cherry-original-pcb-stabilizers-for-custom-mechanical-keyboard-gh60-xd64-xd60-xd84-eepw84-tada68-zz96-6-25x-2x-7x-rs96-87"],
+        "color": "black",
+        "screwin": true,
+        "preclipped": false,
+        "mounttype": "both"
+        
+       },
+       {
+        "id": 2,
+        "manufacturer": "KBDFans",
+        "name": "Cherry Stabilizers",
+        "sellers": ["https://kbdfans.com/collections/keyboard-stabilizer/products/cherry-original-pcb-stabilizers"],
+        "color": "black",
+        "screwin": false,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },
+       {
+        "id": 3,
+        "manufacturer": "KBDFans",
+        "name": "Gold Plated Screw-In Stabilizers",
+        "sellers": ["https://kbdfans.com/collections/keyboard-stabilizer/products/gold-plated-screw-stabilizer"],
+        "color": "black",
+        "screwin": true,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },
+       {
+        "id": 4,
+        "manufacturer": "KBDFans",
+        "name": "Transparent Stabilizers",
+        "sellers": ["https://kbdfans.com/collections/keyboard-stabilizer/products/transparent-pcb-stabilizers-27?variant=35974508749",
+        "https://www.1upkeyboards.com/shop/parts-and-tools/parts/clear-pcb-mount-stabilizers-full-size-6-25u/"],
+        "color": "clear",
+        "screwin": false,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },
+       
+       {
+        "id": 5,
+        "manufacturer": "KBDFans",
+        "name": "Satellite Shaft Stablizers",
+        "sellers": ["https://kbdfans.com/collections/keyboard-stabilizer/products/transparent-black-steel-plate-satellite-shaft-customization-mechanical-keyboard-plate-stab?variant=538550140941"],
+        "color": "black",
+        "screwin": false,
+        "preclipped": false,
+        "mounttype": "plate"
+        
+       },
+       {
+        "id": 6,
+        "manufacturer": "KBDFans",
+        "name": "Gateron Pre-Lubed Stabilizers",
+        "sellers": ["https://kbdfans.com/collections/keyboard-stabilizer/products/gateron-lubed-plate-mounted-stabilizers"],
+        "color": "white",
+        "screwin": false,
+        "preclipped": false,
+        "mounttype": "plate"
+        
+       },
+       {
+        "id": 7,
+        "manufacturer": "KRepublic",
+        "name": "Everglide Transparent Stabilizers",
+        "sellers": ["https://kprepublic.com/products/everglide-transparent-gold-plated-pcb-screw-in-stabilizer-for-custom-mechanical-keyboard"],
+        "color": "clear",
+        "screwin": true,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },
+       {
+        "id": 8,
+        "manufacturer": "KBDFans",
+        "name": "Everglide Black Transparent Stabilizers",
+        "sellers": ["https://kprepublic.com/collections/stabilizer/products/everglide-black-transparent-gold-plated-pcb-screw-in-stabilizers"],
+        "color": "black transparent",
+        "screwin": true,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },
+       {
+        "id": 9,
+        "manufacturer": "KBDFans",
+        "name": "Everglide Pink Transparent Stabilizers",
+        "sellers": ["https://kprepublic.com/products/everglide-pink-transparent-gold-plated-pcb-screw-in-stabilizer"],
+        "color": "pink transparent",
+        "screwin": true,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },
+       {
+        "id": 10,
+        "manufacturer": "KBDFans",
+        "name": "GKs Blue & Pink Stabilizers",
+        "sellers": ["https://kprepublic.com/collections/stabilizer/products/gks-gold-coated-pcb-screw-in-stabilizer-pink-blue-mechanical-keyboard"],
+        "color": "blue",
+        "screwin": "transparent",
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },
+       {
+        "id": 11,
+        "manufacturer": "1UPKeyboards",
+        "name": "Cherry-Style Stabilizers",
+        "sellers": ["https://www.1upkeyboards.com/shop/parts-and-tools/parts/black-pcb-mount-stabilizers-108-6-25u/"],
+        "color": "black",
+        "screwin": false,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       },{
+        "id": 12,
+        "manufacturer": "Novel Keys",
+        "name": "Durock Stabilizers",
+        "sellers": ["https://novelkeys.xyz/products/durock-stabilizers?_pos=2&_sid=fce35cb73&_ss=r"],
+        "color": "purple transparent",
+        "screwin": true,
+        "preclipped": false,
+        "mounttype": "pcb"
+        
+       }
+        
+        
+        ]
+}
