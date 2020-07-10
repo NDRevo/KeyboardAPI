@@ -1,0 +1,188 @@
+{
+    "cases":[
+        {
+            "id": 0,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/60-wood-case-for-anne-pro-2",
+            "name": "Wood Case - Anne Pro 2",
+            "size":"60",
+            "material":"wood",
+            "colors": ["walnut","rose wood"]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/tofu65-acrylic-mechanical-keyboars-case",
+            "name": "Tofu65 Acrylic",
+            "size":"65",
+            "material":"Acrylic",
+            "colors": ["clear"]
+        },
+        {
+            "id": 2,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/60-walnut-case",
+            "name": "Walnut60",
+            "size":"60",
+            "material":"wood",
+            "colors": ["walnut"]
+        },
+        {
+            "id": 3,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/pre-order-60-bamboo-case",
+            "name": "Bamboo60 Wrist Rest",
+            "size":"60",
+            "material":"bamboo",
+            "colors": ["bamboo"]
+        },
+        {
+            "id": 4,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/in-stocktofu-white-60-aluminum-case",
+            "name": "Tofu60",
+            "size":"60",
+            "material":"aluminium",
+            "colors": ["e-white","e-green"]
+        },
+        {
+            "id": 5,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/5-chocolate-aluminum-case",
+            "name": "5° chocolate",
+            "size":"60",
+            "material":"aluminium",
+            "colors": ["brown"]
+        },
+        {
+            "id": 6,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/in-stocktofu-65-aluminum-case",
+            "name": "Tofu65 Aluminium",
+            "size":"65",
+            "material":"aluminium",
+            "colors": ["silver","grey","black","chocolate","burgundy red", "purple","e-white","acrylic frosted"]
+        },
+        {
+            "id": 7,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/tofu-acrylic-frosted-60-case",
+            "name": "Tofu60 Acrylic Frosted",
+            "size":"60",
+            "material":"acrylic",
+            "colors": ["acrylic frosted"]
+        },
+        {
+            "id": 8,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/60-bamboo-case",
+            "name": "Bamboo60",
+            "size":"60",
+            "material":"bamboo",
+            "colors": ["bamboo"]
+        },
+        {
+            "id": 9,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/kbdfans-tofu-60-aluminum-case",
+            "name": "Tofu60 Aluminium",
+            "size":"60",
+            "material":"aluminium",
+            "colors": ["black","grey","silver","mei red", "chocolate", "cyan", "purple","light blue", "dark green","burgundy", "blue ink", "rose gold","e-army green","golden","dark purple","dark cyan"]
+        },
+        {
+            "id": 10,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/60-frosted-acrylic-mechanical-keyboard-case",
+            "name": "Acrylic60",
+            "size":"60",
+            "material":"acrylic",
+            "colors": ["acrylic"]
+        },
+        {
+            "id": 11,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/kbdfans-tada68-aluminum-case",
+            "name": "Tada68 Low Profile",
+            "size":"65",
+            "material":"aluminium",
+            "colors": ["grey","silver","black","chocolate","blue"]
+        },
+        {
+            "id": 12,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/tada68-plastic-case",
+            "name": "Tada68 Plastic",
+            "size":"65",
+            "material":"plastic",
+            "colors": ["black"]
+        },
+        {
+            "id": 13,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case",
+            "name": "5° Acrylic",
+            "size":"60",
+            "material":"acrylic",
+            "colors": ["frosted","transparent"]
+        },
+        {
+            "id": 14,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/kbdfans75-aluminum-case-75-layout",
+            "name": "KBDfans75",
+            "size":"75",
+            "material":"aluminium",
+            "colors": ["grey","blue","cyan","orange","black","silver","purple","red","sky blue"]
+        },
+        {
+            "id": 15,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/customized-gh60-aluminum-case",
+            "name": "KBDfans60 Low Profile",
+            "size":"60",
+            "material":"aluminium",
+            "colors": ["red","orange","black","blue","silver","gray","cyan","pink","rose gold","purple","acrylic","magenta","green"]
+        },
+        {
+            "id": 16,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/pre-orderkbdfans-5-60-case",
+            "name": "5° Aluminium",
+            "size":"60",
+            "material":"aluminium",
+            "colors": ["black","grey","silver","red","purple","dark blue","orange","cyan","dark green","acrylic frosted","chocolate","rose gold","burgundy red"]
+        },
+        {
+            "id": 17,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/60-keyboard-wood-case",
+            "name": "Wood60",
+            "size":"60",
+            "material":"wood",
+            "colors": ["rose wood","zebra wood","walnut"]
+        },
+        {
+            "id": 18,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/60-plastic-case",
+            "name": "Plastic60",
+            "size":"60",
+            "material":"plastic",
+            "colors": ["black","white","purple","transparent","dark blue"]
+        },
+        {
+            "id": 19,
+            "manufacturer": "KBDFans",
+            "seller": "https://kbdfans.com/collections/case/products/mechanical-keyboard-shell-anode-aluminum-shell-gh60-poker-60-mechanical-keyboard-shell",
+            "name": "Anode Aluminium60",
+            "size":"60",
+            "material":"aluminium",
+            "colors": ["blue","grey","silver","purple","red","black","cyan","burgundy red"]
+        }
+
+    ]
+
+
+
+}
