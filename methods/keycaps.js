@@ -7,7 +7,7 @@ module.exports = {
 			res.json(pcbs)
 		});
 		router.post('/keycaps', function (req, res) {
-			res.json({ message: "POSTED!" })
+			res.json({ message: "POSTING!" })
 		});
 	},
 };
