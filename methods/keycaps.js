@@ -4,7 +4,7 @@ module.exports = {
 	execute(router) {      
         router.get('/keycaps', function (req, res) {
 			//console.log(req.query.id);
-			res.json(pcbs)
+			res.json(pcbsData)
 		});
 		router.post('/keycaps', function (req, res) {
 			res.json({ message: "POSTING!" })

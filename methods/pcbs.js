@@ -162,6 +162,6 @@ function getPCBData(req,res) {
         }
     }
 
-	req.json(data)
+	res.json(data)
 	return;
 }
