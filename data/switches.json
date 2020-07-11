@@ -502,7 +502,7 @@
             "operating_force": 50,
             "bottomout_force": 60,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 41,
@@ -514,7 +514,7 @@
             "operating_force": 50,
             "bottomout_force": 70,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 42,
@@ -526,7 +526,7 @@
             "operating_force": 50,
             "bottomout_force": 60,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 43,
@@ -538,7 +538,7 @@
             "operating_force": 60,
             "bottomout_force": 70,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 44,
@@ -550,7 +550,7 @@
             "operating_force": 60,
             "bottomout_force": 70,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 45,
@@ -562,7 +562,7 @@
             "operating_force": 60,
             "bottomout_force": 70,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 46,
@@ -574,7 +574,7 @@
             "operating_force": 60,
             "bottomout_force": 70,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 47,
@@ -586,7 +586,7 @@
             "operating_force": 50,
             "bottomout_force": 60,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 48,
@@ -598,7 +598,7 @@
             "operating_force": 50,
             "bottomout_force": 60,
             "pretravel": 1.5,
-            "totaltravel": 3.0
+            "totaltravel": 3
         },
         {
             "id": 49,
@@ -628,6 +628,5 @@
             "pretravel": 1.8,
             "totaltravel": 3.6
         }
-        
     ]
 }
