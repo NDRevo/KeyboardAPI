@@ -11,7 +11,7 @@ var app = express();
 const router = express.Router();
 
 //Sets favicon and json
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'assets', 'favicon.ico')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -32,11 +32,11 @@ console.log("Keyboard API Online")
 //Finds file and runs the file given the name of the data the user wants (Ex. Switches)
 router.use(function (req, res, next) {
 
-    var dataFile = keebdataFiles.find(data => data.substr(0, data.length - 3) == req.url.substr(1, req.url.length))
-    dataFile = "./methods/" + dataFile
-    var runkeebFile = require(dataFile);
+    var dataFile = keebdataFiles.find(data => data.includes(req.url.substr(1, 3)))
+
+    var runKeebFile = require("./methods/" + dataFile); //Gets the correct data file path 
 
 
-    runkeebFile.execute(router);
+    runKeebFile.execute(router); // Executes code in file and passes router
     next() //calls next middleware in the application.
 });

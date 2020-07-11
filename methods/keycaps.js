@@ -1,4 +1,4 @@
-var pcbs = require('/home/ubuntu/Documents/keyboardapi/data/pcbs.json')
+var pcbsData = require('/home/ubuntu/Documents/keyboardapi/data/pcbs.json')
 module.exports = {
 
 	execute(router) {      
