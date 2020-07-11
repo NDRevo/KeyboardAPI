@@ -7,7 +7,7 @@ module.exports = {
 			getPCBData(req,res)
 		});
 		router.post('/pcbs', function (req, res) {
-			res.json({ message: "POSTED!" })
+			postPCBsData(req,res)
 		});
 	},
 };
@@ -164,4 +164,37 @@ function getPCBData(req,res) {
 
 	res.json(data)
 	return;
+}
+
+
+function postPCBsData(req, res) {
+    fs.readFile('./data/pcbs.json', 'utf8', function (err, data) {
+        if (err) {
+            console.log(err)
+        } else {
+            const file = JSON.parse(data);
+            for (var i = 0; i < file.pcbs.length; i++) {
+                if (file.pcbs[i].id == req.body.id) {
+                    console.log("ID already exist: " + req.body.id + " " + i);
+                    return res.send("ID ALREADY EXIST");
+                }
+                if (file.pcbs[i].name == req.body.name && file.pcbs[i].material == req.body.material && file.pcbs[i].manufacturer == req.body.manufacturer) {
+                    console.log("PCB already exist: " + file.pcbs[i]);
+                    return res.send("ID ALREADY EXIST");
+                }
+            }
+
+            file.pcbs.push(req.body)
+
+
+            const json = JSON.stringify(file);
+
+            fs.writeFile('./data/pcbs.json', json, 'utf8', function (err) {
+                if (err) console.log(err);
+
+            });
+            return res.send("PCB Inputted");
+        }
+
+    });
 }

@@ -7,12 +7,10 @@ module.exports = {
 			getCaseData(req,res)
 		});
 		router.post('/cases', function (req, res) {
-			res.json({ message: "POSTED!" })
+			postCasesData(req,res)
 		});
 	},
 };
-
-
 
 //Manufacturer, Size, Material
 function searchManufacturerSize(term) {
@@ -142,4 +140,38 @@ function getCaseData(req, res) {
 
     res.json(data);
 	return;
+}
+
+
+
+function postCasesData(req, res) {
+    fs.readFile('./data/cases.json', 'utf8', function (err, data) {
+        if (err) {
+            console.log(err)
+        } else {
+            const file = JSON.parse(data);
+            for (var i = 0; i < file.cases.length; i++) {
+                if (file.cases[i].id == req.body.id) {
+                    console.log("ID already exist: " + req.body.id + " " + i);
+                    return res.send("ID ALREADY EXIST");
+                }
+                if (file.cases[i].name == req.body.name && file.cases[i].material == req.body.material && file.cases[i].manufacturer == req.body.manufacturer) {
+                    console.log("Case already exist: " + file.cases[i]);
+                    return res.send("ID ALREADY EXIST");
+                }
+            }
+
+            file.cases.push(req.body)
+
+
+            const json = JSON.stringify(file);
+
+            fs.writeFile('./data/cases.json', json, 'utf8', function (err) {
+                if (err) console.log(err);
+
+            });
+            return res.send("Cases Inputted");
+        }
+
+    });
 }

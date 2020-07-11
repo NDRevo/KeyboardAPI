@@ -7,12 +7,10 @@ module.exports = {
 			getPlatesData(req,res)
 		});
 		router.post('/plates', function (req, res) {
-			res.json({ message: "POSTED!" })
+			postPlatesData(req,res)
 		});
 	},
 };
-
-
 
 function searchManufacturerSize(term) {
     return platesData.plates.filter(({manufacturer, size}) => {
@@ -146,4 +144,37 @@ function getPlatesData(req,res) {
 
     res.json(data);
 	return;
+}
+
+
+function postPlatesData(req, res) {
+    fs.readFile('./data/plates.json', 'utf8', function (err, data) {
+        if (err) {
+            console.log(err)
+        } else {
+            const file = JSON.parse(data);
+            for (var i = 0; i < file.plates.length; i++) {
+                if (file.plates[i].id == req.body.id) {
+                    console.log("ID already exist: " + req.body.id + " " + i);
+                    return res.send("ID ALREADY EXIST");
+                }
+                if (file.plates[i].name == req.body.name && file.plates[i].material == req.body.material && file.plates[i].manufacturer == req.body.manufacturer) {
+                    console.log("Plate already exist: " + file.plates[i]);
+                    return res.send("ID ALREADY EXIST");
+                }
+            }
+
+            file.plates.push(req.body)
+
+
+            const json = JSON.stringify(file);
+
+            fs.writeFile('./data/plates.json', json, 'utf8', function (err) {
+                if (err) console.log(err);
+
+            });
+            return res.send("Plate Inputted");
+        }
+
+    });
 }
