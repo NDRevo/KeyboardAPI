@@ -5,38 +5,62 @@ module.exports = {
         router.get('/cases', function (req, res) {
 			//console.log(req.query.id);
 			getCaseData(req,res)
-		});
-		router.post('/cases', function (req, res) {
-			postCasesData(req,res)
-		});
+        });
+        router.get('/cases/:id(\\d+)/', function (req, res) {
+            req.query = req.params;
+            getCaseData(req, res);
+
+        });
+        router.get('/cases/:manufacturer(KBDFans)', function (req, res) {
+            req.query = req.params;
+            getCaseData(req, res);
+            
+        });
+        router.get('/cases/:material(aluminium|wood|bamboo|plastic|acrylic|)', function (req, res) {
+            req.query = req.params;
+            getCaseData(req, res);
+            
+        });
+
+        router.get('/cases/:null', function (req, res) {
+            var data = {
+                "status": "error",
+                "msg": "none found",
+                "total": casesData.cases.length,
+                "count": 0
+            }
+            res.json(data); 
+        });
+        
+
 	},
 };
 
 //Manufacturer, Size, Material
 function searchManufacturerSize(term) {
     return casesData.cases.filter(({manufacturer, size}) => {
-        return (manufacturer === term.manufacturer && size === term.size)
+        return (manufacturer.toUpperCase() === term.manufacturer.toUpperCase() && size === term.size)
 
     })
 }
 
 function searchManufacturerMaterial(term) {
     return casesData.cases.filter(({manufacturer, material}) => {
-        return (manufacturer === term.manufacturer && material === term.material)
+        return (manufacturer.toUpperCase() === term.manufacturer.toUpperCase() && material.toUpperCase() === term.material.toUpperCase())
 
     })
 }
 
 function searchSizeMaterial(term) {
     return casesData.cases.filter(({size, material}) => {
-        return (material === term.material && size === term.size)
+        return (material.toUpperCase() === term.material.toUpperCase() && size === term.size)
 
     })
 }
 
 function searchSizeMaterialManufacturer(term) {
     return casesData.cases.filter(({size, material, manufacturer}) => {
-        return (material === term.material && size === term.size && manufacturer === term.manufacturer)
+        return (material.toUpperCase() === term.material.toUpperCase() && size === term.size && manufacturer.toUpperCase() === term.manufacturer.toUpperCase())
 
     })
 }
@@ -101,7 +125,7 @@ function getCaseData(req, res) {
         //Manufacturer
         else if (req.query.manufacturer != null && Object.keys(req.query).length == 1) {
             data.cases.find(element => {
-                if (element.manufacturer === req.query.manufacturer) {
+                if (element.manufacturer.toUpperCase() === req.query.manufacturer.toUpperCase()) {
                     dataArray.push(element)
                 }
             })
@@ -119,7 +143,7 @@ function getCaseData(req, res) {
         //Material
         else if (req.query.material != null && Object.keys(req.query).length == 1) {
             data.cases.find(element => {
-                if (element.material === req.query.material) {
+                if (element.material.toUpperCase() === req.query.material.toUpperCase()) {
                     dataArray.push(element)
                 }
             })

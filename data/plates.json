@@ -69,7 +69,7 @@
             "sellers" : ["https://kbdfans.com/collections/plate/products/carbon-fiber-dz60rgb-hot-swap-plate"],
             "name" : "Carbon Fiber DZ60RGB",
             "size": "60",
-            "material" : "carbon fiber",
+            "material" : "carbonfiber",
             "colors": ["black"]
         },
         {
@@ -78,7 +78,7 @@
             "sellers" : ["https://kbdfans.com/collections/plate/products/carbon-fiber-60-plate-1"],
             "name" : "Carbon Fiber 60",
             "size": "60",
-            "material" : "carbon fiber",
+            "material" : "carbonfiber",
             "colors": ["black"]
         },
         {

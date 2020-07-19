@@ -6,36 +6,61 @@ module.exports = {
 			//console.log(req.query.id);
 			getPlatesData(req,res)
 		});
-		router.post('/plates', function (req, res) {
-			postPlatesData(req,res)
-		});
+        router.get('/plates/:id(\\d+)/', function (req, res) {
+            req.query = req.params;
+            getPlatesData(req, res);
+
+        });
+        router.get('/plates/:manufacturer(KBDFans)', function (req, res) {
+            req.query = req.params;
+            getPlatesData(req, res);
+            
+        });
+        router.get('/plates/:material(aluminium|polycarbonate|brass|carbonfiber)', function (req, res) {
+            req.query = req.params;
+            getPlatesData(req, res);
+            
+        });
+        router.get('/plates/:null', function (req, res) {
+            var data = {
+                "status": "error",
+                "msg": "none found",
+                "total": platesData.plates.length,
+                "count": 0
+            }
+            res.json(data); 
+        });
 	},
 };
 
 function searchManufacturerSize(term) {
     return platesData.plates.filter(({manufacturer, size}) => {
-        return (manufacturer === term.manufacturer && size === term.size)
+        return (manufacturer.toUpperCase() === term.manufacturer.toUpperCase() && size === term.size)
 
     })
 }
 
 function searchManufacturerMaterial(term) {
     return platesData.plates.filter(({manufacturer, material}) => {
-        return (manufacturer === term.manufacturer && material === term.material)
+        return (manufacturer.toUpperCase() === term.manufacturer.toUpperCase() && material.toUpperCase() === term.material.toUpperCase())
 
     })
 }
 
 function searchSizeMaterial(term) {
     return platesData.plates.filter(({size, material}) => {
-        return (material === term.material && size === term.size)
+        return (material.toUpperCase() === term.material.toUpperCase() && size === term.size)
 
     })
 }
 
 function searchSizeMaterialManufacturer(term) {
     return platesData.plates.filter(({size, material, manufacturer}) => {
-        return (material === term.material && size === term.size && manufacturer === term.manufacturer)
+        return (
+            material.toUpperCase()     === term.material.toUpperCase() && 
+            manufacturer.toUpperCase() === term.manufacturer.toUpperCase() &&
+            size === term.size
+        )
 
     })
 }
@@ -103,7 +128,7 @@ function getPlatesData(req,res) {
         //Manufacturer
         else if (req.query.manufacturer != null && Object.keys(req.query).length == 1) {
             data.plates.find(element => {
-                if (element.manufacturer === req.query.manufacturer) {
+                if (element.manufacturer.toUpperCase() === req.query.manufacturer.toUpperCase()) {
                     dataArray.push(element)
                 }
             })
@@ -123,7 +148,7 @@ function getPlatesData(req,res) {
         //Material
         else if (req.query.material != null && Object.keys(req.query).length == 1) {
             data.plates.find(element => {
-                if (element.material === req.query.material) {
+                if (element.material.toUpperCase() === req.query.material.toUpperCase()) {
                     dataArray.push(element)
                 }
             })

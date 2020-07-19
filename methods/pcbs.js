@@ -5,10 +5,29 @@ module.exports = {
         router.get('/pcbs', function (req, res) {
 			//console.log(req.query.id);
 			getPCBData(req,res)
-		});
-		router.post('/pcbs', function (req, res) {
-			postPCBsData(req,res)
-		});
+        });
+        router.get('/pcbs/:id(\\d+)/', function (req, res) {
+            req.query = req.params;
+            getPCBData(req, res);
+
+        });
+
+        router.get('/pcbs/:manufacturer(kbdfans|Keebio|1UPKeyboards)', function (req, res) {
+            req.query = req.params;
+            getPCBData(req, res);
+            
+        });
+
+        router.get('/pcbs/:null', function (req, res) {
+            var data = {
+                "status": "error",
+                "msg": "none found",
+                "total": pcbsData.pcbs.length,
+                "count": 0
+            }
+            res.json(data);
+            
+        });
 	},
 };
 
@@ -39,7 +58,7 @@ function searchRGBSwitchRGBUnderglow(term) {
 }
 function searchSizeManufacturer(term) {
     return pcbsData.pcbs.filter(({size,manufacturer}) => {
-        return (size === term.size &&  manufacturer === term.manufacturer)
+        return (size === term.size &&  manufacturer.toUpperCase() === term.manufacturer.toUpperCase())
 
     })
 }
@@ -104,7 +123,7 @@ function getPCBData(req,res) {
         //Manufacturer
        else if (req.query.manufacturer != null && Object.keys(req.query).length == 1) {
             data.pcbs.find(element => {
-                if (element.manufacturer === req.query.manufacturer) {
+                if (element.manufacturer.toUpperCase() === req.query.manufacturer.toUpperCase()) {
                     dataArray.push(element)
                 }
             })

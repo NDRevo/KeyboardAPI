@@ -5,20 +5,46 @@ module.exports = {
 
     execute(router) {
         router.get('/switches', function (req, res) {
+           
             getSwitchData(req, res);
 
         });
-        router.post('/switches', function (req, res) {
+        router.get('/switches/:id(\\d+)/', function (req, res) {
+            req.query = req.params;
+            getSwitchData(req, res);
 
-            postSwitchData(req, res)
-            return;
         });
+        router.get('/switches/:type(linear|clicky|tactile)', function (req, res) {
+        
+            req.query = req.params;
+            getSwitchData(req, res);
+            
+        });
+        router.get('/switches/:manufacturer(Cherry|Kailh)', function (req, res) {
+            req.query = req.params;
+            getSwitchData(req, res);
+            
+        });
+        router.get('/switches/:null', function (req, res) {
+            var data = {
+                "status": "error",
+                "msg": "none found",
+                "total": switchesData.switches.length,
+                "count": 0
+            }
+            res.json(data);
+            
+        });
+        
+        // router.post('/switches', function (req, res) {
+        //     postSwitchData(req, res)
+        // });
     },
 };
 
 function search(term) {
     return switchesData.switches.filter(({ manufacturer, type }) => {
-        return (manufacturer === term.manufacturer && type === term.type)
+        return (manufacturer.toUpperCase() === term.manufacturer.toUpperCase() && type.toUpperCase() === term.type.toUpperCase())
 
     })
 }
@@ -32,25 +58,28 @@ function getSwitchData(req, res) {
     var dataArray = [];
 
     if (req.query != undefined || req.query != {}) {
+            //ID
         if (req.query.id != null && Object.keys(req.query).length == 1) {
             data.switches.find(element => {
                 if (element.id == req.query.id) {
                     dataArray.push(element)
                 }
             })
+            //Type and manufacturer
         } else if (req.query.manufacturer != null && req.query.type != null
             && Object.keys(req.query).length == 2) {
             let items = search(req.query)
             for (var i = 0; i < items.length; i++) {
                 dataArray.push(items[i])
             }
+            //Mnaufacturer
         } else if (req.query.manufacturer != null && Object.keys(req.query).length == 1) {
             data.switches.find(element => {
-                if (element.manufacturer === req.query.manufacturer) {
+                if (element.manufacturer.toUpperCase() === req.query.manufacturer.toUpperCase()) {
                     dataArray.push(element)
                 }
             })
-
+            //Type
         } else if (req.query.type != null && Object.keys(req.query).length == 1) {
             data.switches.find(element => {
                 if (element.type === req.query.type) {

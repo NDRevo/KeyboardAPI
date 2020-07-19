@@ -1,11 +1,20 @@
 {
   "name": "keyboardapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Keyboard database",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NDRevo/KeyboardAPI.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Noé Duran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "serve-favicon": "^2.5.0"
+  }
 }

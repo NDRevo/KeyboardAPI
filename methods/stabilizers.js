@@ -5,10 +5,33 @@ module.exports = {
         router.get('/stabilizers', function (req, res) {
 			//console.log(req.query.id);
 			getStabilizerData(req,res)
-		});
-		router.post('/stabilizers', function (req, res) {
-			res.json({ message: "POSTED!" })
-		});
+        });
+        router.get('/stabilizers/:id(\\d+)/', function (req, res) {
+            req.query = req.params;
+            getStabilizerData(req, res);
+
+        });
+        router.get('/stabilizers/:manufacturer(KBDFans|1UPKeyboards|NovelKeys)', function (req, res) {
+            req.query = req.params;
+            getStabilizerData(req, res);
+
+        });
+        router.get('/stabilizers/:mounttype(both|pcb|plate)', function (req, res) {
+            req.query = req.params;
+            getStabilizerData(req, res);
+
+        });
+        
+        router.get('/stabilizers/:null', function (req, res) {
+            var data = {
+                "status": "error",
+                "msg": "none found",
+                "total": stabilizersData.stabilizers.length,
+                "count": 0
+            }
+            res.json(data);
+            
+        });
 	},
 };
 
