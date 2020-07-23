@@ -1,184 +1,554 @@
 {
     "cases":[
         {
-            "id": 0,
+            "id": 0,            
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/60-wood-case-for-anne-pro-2"],
+            "limitedrun": false,
+            "price":0,
             "name": "Wood Case - Anne Pro 2",
             "size":"60",
-            "material":"wood",
-            "colors": ["walnut","rose wood"]
+            "material": ["wood"],
+            "colors": ["Walnut","Rose Wood"]
         },
         {
-            "id": 1,
+            "id": 1,            
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/tofu65-acrylic-mechanical-keyboars-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Tofu65 Acrylic",
             "size":"65",
-            "material":"acrylic",
-            "colors": ["clear"]
+            "material": ["acrylic"],
+            "colors": ["Transparent"]
         },
         {
-            "id": 2,
+            "id": 2,            
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/60-walnut-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Walnut60",
             "size":"60",
-            "material":"wood",
-            "colors": ["walnut"]
+            "material": ["wood"],
+            "colors": ["Walnut"]
         },
         {
-            "id": 3,
+            "id": 3,            
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/pre-order-60-bamboo-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Bamboo60 Wrist Rest",
             "size":"60",
-            "material":"bamboo",
-            "colors": ["bamboo"]
+            "material": ["Bamboo"],
+            "colors": ["Bamboo"]
         },
         {
             "id": 4,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/in-stocktofu-white-60-aluminum-case"],
-            "name": "Tofu60",
+            "limitedrun": false,
+            "price":0,
+            "name": "Tofu60 - E",
             "size":"60",
-            "material":"aluminium",
-            "colors": ["e-white","e-green"]
+            "material": ["aluminium"],
+            "colors": ["E-White","E-Green"]
         },
         {
             "id": 5,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/5-chocolate-aluminum-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "5° chocolate",
             "size":"60",
-            "material":"aluminium",
-            "colors": ["brown"]
+            "material": ["aluminium"],
+            "colors": ["Brown"]
         },
         {
-            "id": 6,
+            "id": 6,            
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/in-stocktofu-65-aluminum-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Tofu65 Aluminium",
             "size":"65",
-            "material":"aluminium",
-            "colors": ["silver","grey","black","chocolate","burgundy red", "purple","e-white","acrylic frosted"]
+            "material": ["aluminium"],
+            "colors": ["Silver","Grey","Black","Chocolate","Burgundy Red", "Purple","E-White","Frosted"]
         },
         {
-            "id": 7,
+            "id": 7,           
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/tofu-acrylic-frosted-60-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Tofu60 Acrylic Frosted",
             "size":"60",
-            "material":"acrylic",
-            "colors": ["acrylic frosted"]
+            "material": ["acrylic"],
+            "colors": ["Frosted"]
         },
         {
-            "id": 8,
+            "id": 8,           
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/60-bamboo-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Bamboo60",
             "size":"60",
-            "material":"bamboo",
-            "colors": ["bamboo"]
+            "material": ["Bamboo"],
+            "colors": ["Bamboo"]
         },
         {
-            "id": 9,
+            "id": 9,            
             "manufacturer": "KBDFans",
-            "sellers": ["https://kbdfans.com/collections/case/products/kbdfans-tofu-60-aluminum-case"],
+            "sellers": ["https://kbdfans.com/collections/case/products/kbdfans-tofu-60-aluminum-case", "https://keygem.store/collections/case/products/kbdfans-tofu-60-aluminum-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Tofu60 Aluminium",
             "size":"60",
-            "material":"aluminium",
-            "colors": ["black","grey","silver","mei red", "chocolate", "cyan", "purple","light blue", "dark green","burgundy", "blue ink", "rose gold","e-army green","golden","dark purple","dark cyan"]
+            "material": ["aluminium"],
+            "colors": ["Black","Grey","Silver","Mei Red", "Chocolate", "Cyan", "Purple","Light Blue", "Dark Green","Burgundy", "Blue Ink", "Rose Gold","E-Army Green","Golden","Dark Purple","Dark Cyan"]
         },
         {
             "id": 10,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/60-frosted-acrylic-mechanical-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Acrylic60",
             "size":"60",
-            "material":"acrylic",
-            "colors": ["acrylic"]
+            "material": ["acrylic"],
+            "colors": ["Frosted"]
         },
         {
             "id": 11,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/kbdfans-tada68-aluminum-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Tada68 Low Profile",
             "size":"65",
-            "material":"aluminium",
-            "colors": ["grey","silver","black","chocolate","blue"]
+            "material": ["aluminium"],
+            "colors": ["Grey","Silver","Black","Chocolate","Blue"]
         },
         {
             "id": 12,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/tada68-plastic-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Tada68 Plastic",
             "size":"65",
-            "material":"plastic",
-            "colors": ["black"]
+            "material": ["plastic"],
+            "colors": ["Black"]
         },
         {
             "id": 13,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "5° Acrylic",
             "size":"60",
-            "material":"acrylic",
-            "colors": ["frosted","transparent"]
+            "material": ["acrylic"],
+            "colors": ["Frosted","Transparent"]
         },
         {
             "id": 14,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/kbdfans75-aluminum-case-75-layout"],
+            "limitedrun": false,
+            "price":0,
             "name": "KBDfans75",
             "size":"75",
-            "material":"aluminium",
-            "colors": ["grey","blue","cyan","orange","black","silver","purple","red","sky blue"]
+            "material": ["aluminium"],
+            "colors": ["Grey","Blue","Cyan","Orange","Black","Silver","Purple","Red","Sky Blue"]
         },
         {
             "id": 15,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/customized-gh60-aluminum-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "KBDfans60 Low Profile",
             "size":"60",
-            "material":"aluminium",
-            "colors": ["red","orange","black","blue","silver","gray","cyan","pink","rose gold","purple","acrylic","magenta","green"]
+            "material": ["aluminium"],
+            "colors": ["Red","Orange","Black","Blue","Silver","Grey","Cyan","Pink","Rose Gold","Purple","Acrylic","Magenta","Green"]
         },
         {
             "id": 16,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/pre-orderkbdfans-5-60-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "5° Aluminium",
             "size":"60",
-            "material":"aluminium",
-            "colors": ["black","grey","silver","red","purple","dark blue","orange","cyan","dark green","acrylic frosted","chocolate","rose gold","burgundy red"]
+            "material": ["aluminium"],
+            "colors": ["Black","Grey","Silver","Red","Purple","Dark Blue","Orange","Cyan","Dark Green","Frosted","Chocolate","Rose Gold","Burgundy Red"]
         },
         {
             "id": 17,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/60-keyboard-wood-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Wood60",
             "size":"60",
-            "material":"wood",
-            "colors": ["rose wood","zebra wood","walnut"]
+            "material": ["wood"],
+            "colors": ["Rose Wood","Zebra Wood","Walnut"]
         },
         {
             "id": 18,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/60-plastic-case"],
+            "limitedrun": false,
+            "price":0,
             "name": "Plastic60",
             "size":"60",
-            "material":"plastic",
-            "colors": ["black","white","purple","transparent","dark blue"]
+            "material": ["plastic"],
+            "colors": ["Black","White","Purple","Transparent","Dark Blue"]
         },
         {
             "id": 19,
             "manufacturer": "KBDFans",
             "sellers": ["https://kbdfans.com/collections/case/products/mechanical-keyboard-shell-anode-aluminum-shell-gh60-poker-60-mechanical-keyboard-shell"],
+            "limitedrun": false,
+            "price":0,
             "name": "Anode Aluminium60",
             "size":"60",
-            "material":"aluminium",
-            "colors": ["blue","grey","silver","purple","red","black","cyan","burgundy red"]
+            "material": ["aluminium"],
+            "colors": ["Blue","Grey","Silver","Purple","Red","Black","Cyan","Burgundy Red"]
+        },
+        {
+            "id": 20,
+            "manufacturer": "1UPKeyboards",
+            "sellers": ["https://www.1upkeyboards.com/product-category/bases-and-cases/"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Aluminium 60% Base",
+            "size":"60",
+            "material": ["aluminium"],
+            "colors": ["Black","Blue","Red","Silver","slate"]
+        },
+        {
+            "id": 21,
+            "manufacturer": "1UPKeyboards",
+            "sellers": ["https://www.1upkeyboards.com/shop/bases-and-cases/acrylic-60-base-frosted/"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Acrylic 60% Base",
+            "size":"60",
+            "material": ["acrylic"],
+            "colors": ["Frosted"]
+        },
+        {
+            "id": 22,
+            "manufacturer": "Keebio",
+            "sellers": ["https://keeb.io/collections/cases-plates/products/iris-keyboard-case-plates"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Iris Case/Plate",
+            "size":"ergonomic",
+            "material": ["mixed"],
+            "colors": [""]
+        },
+        {
+            "id": 23,
+            "manufacturer": "Keebio",
+            "sellers": ["https://keeb.io/collections/cases-plates/products/levinson-keyboard-case-plates"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Levinson Case/Plate",
+            "size":"ergonomic",
+            "material": ["acrylic"],
+            "colors": ["Black", "Transparent"]
+        },
+        {
+            "id": 24,
+            "manufacturer": "Keebio",
+            "sellers": ["https://keeb.io/collections/cases-plates/products/stainless-steel-nyquist-plates"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Nyquist Case/Plate",
+            "size":"ergonomic",
+            "material": ["acrylic"],
+            "colors": ["Black","Transparent"]
+        },
+        {
+            "id": 25,
+            "manufacturer": "Keebio",
+            "sellers": ["https://keeb.io/collections/cases-plates/products/viterbi-case-plates"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Viterbi",
+            "size": "ergonomic",
+            "material": [ "FR4"],
+            "colors": ["Black"]
+        },
+        {
+            "id": 27,
+            "manufacturer": "Keebwerk",
+            "sellers": ["https://www.keebwerk.com/product/nano-slider-aluminium-case/"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Nano. Slider",
+            "size": "other",
+            "material": ["aluminium"],
+            "colors": ["Black","Red","Blue","Purple","Silver"]
+        },
+        {
+            "id": 28,
+            "manufacturer": "Keeeb!",
+            "sellers": ["https://www.keeeb.co/store/p1/ivy.html"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Ivy",
+            "size": "other",
+            "material": ["brass"],
+            "colors": ["Grey","White","Sandblasted","Hand Polished"]
+        },
+        {
+            "id": 29,
+            "manufacturer": "Keyboard Treehouse",
+            "sellers": ["https://keyboardtreehouse.com/collections/in-stock/products/ext65-case-and-pcb-bundle"],
+            "limitedrun": false,
+            "price":0,
+            "name": "EXT65 Case/PCB",
+            "size":"65",
+            "material": ["acrylic"],
+            "colors": ["Black","Red","Lilac","Yellow","Pink"]
+        },
+        {
+            "id": 30,
+            "manufacturer": "Keyboard Treehouse",
+            "sellers": ["https://keyboardtreehouse.com/collections/in-stock/products/wkl-60-acrylic-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "WKL 60%",
+            "size":"60",
+            "material": ["acrylic"],
+            "colors": ["Black","Frosted"]
+        },
+        {
+            "id": 31,
+            "manufacturer": "LFKeyboards",
+            "sellers": ["https://www.lfkeyboards.com/case-78k/"],
+            "limitedrun": false,
+            "price":0,
+            "name": "78K",
+            "size":"other",
+            "material": ["acrylic"],
+            "colors": ["Black"]
+        },
+        {
+            "id": 32,
+            "manufacturer": "KeyHive",
+            "sellers": ["https://keyhive.xyz/shop/3d-printed-corne-helidox-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "3D Printed Corne Helidox",
+            "size":"Ergonomic",
+            "material": ["plastic"],
+            "colors": ["Options"]
+        },
+        {
+            "id": 33,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/corne-ceo-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Corne CEO",
+            "size":"ergonomic",
+            "material": ["stainless steel"],
+            "colors": ["Red Oak", "Walnut"]
+        },
+        {
+            "id": 34,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/cio-corne-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Corne CIO",
+            "size":"ergonomic",
+            "material": ["stainless steal"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 35,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/cto-corne-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Corne CTO",
+            "size":"stainless steel",
+            "material": ["stainless steel"],
+            "colors": ["Red Oak"]
+        },
+        {
+            "id": 36,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/corne-cfo-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Corne CFO",
+            "size":"ergonomic",
+            "material": ["brass"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 37,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-cio-keyboard-case?variant=12377028919343"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Iris CIO",
+            "size":"ergonomic",
+            "material": ["stainless steel"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 38,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-ceo-keyboard-case-v2"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Iris CEO V2",
+            "size":"egonomic",
+            "material": ["stainless steel"],
+            "colors": ["Red Oak","Walnut"]
+        },
+        {
+            "id": 39,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-ceo-keyboard-case-v3"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Iris CEO V3",
+            "size":"ergonomic",
+            "material": ["stainless steel"],
+            "colors": ["Red Oak","Walnut"]
+        },
+        {
+            "id": 40,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-cfo-keyboard-case-v3"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Iris CFO",
+            "size":"ergonomic",
+            "material": ["brass"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 41,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-cio-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Kyria CIO",
+            "size":"egonomic",
+            "material": ["stainless steel"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 42,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-ceo-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Kyria CEO",
+            "size":"ergonomic",
+            "material": ["stainless steel", "acrylic"],
+            "colors": ["Grey"]
+        },
+        {
+            "id": 43,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-cfo-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Kyria CFO",
+            "size":"ergonomic",
+            "material": ["brass"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 44,
+            "manufacturer": "MelGeek",
+            "sellers": ["https://www.melgeek.com/collections/keyboard-case/products/melgeek-mojo60-mechanical-keyboard-case"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Mojo60",
+            "size":"60",
+            "material": ["aluminium"],
+            "colors": ["Silver","Grey","Black","Stormtrooper White","Corvette Yellow","Prisom Pink","Robin's Egg Blue","Electric Yellow","Sky Blue", "Nra Blue", "Bright Purple","Zombie Green","Sig Pink","Desert Sand"]
+        },
+        {
+            "id": 45,
+            "manufacturer": "MTBKeyboards",
+            "sellers": ["https://mtbkeys.com/shop/ols/products/hb60-honeyboard-60-cnc-aluminum-case-kit"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Honeyboard",
+            "size":"60",
+            "material": ["aluminium"],
+            "colors": ["Polished","Black","Blue","gold"]
+        },
+        {
+            "id": 46,
+            "manufacturer": "OpticBoards",
+            "sellers": ["https://www.opticboards.com/shop/aluminium-low-profile-case-for-60-boards/"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Aluminium Low Profile",
+            "size":"60",
+            "material": ["aluminium"],
+            "colors": ["Black","Blue","Purple","Orange","Grey","Red","Silver","Gold"]
+        },
+        {
+            "id": 47,
+            "manufacturer": "OpticBoards",
+            "sellers": ["https://www.opticboards.com/shop/aluminium-high-profile-case-for-60-boards/"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Aluminium High Profile",
+            "size":"60",
+            "material": ["aluminium"],
+            "colors": ["Blue","Purple","Grey","Red"]
+        },
+        {
+            "id": 48,
+            "manufacturer": "OpticBoards",
+            "sellers": ["https://www.opticboards.com/shop/plastic-low-profile-case-for-60-boards/"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Plastic Low Profile",
+            "size":"60",
+            "material": ["Plastic"],
+            "colors": ["Blue","Opal","White","Black","Pink","Transparent"]
+        },
+        {
+            "id": 49,
+            "manufacturer": "OriginativeCo.",
+            "sellers": ["https://www.originativeco.com/products/lambo?_pos=1&_sid=3514103e7&_ss=r"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Lambo",
+            "size":"60",
+            "material": ["Aluminium"],
+            "colors": ["Black","Red","Silver"]
+        },
+        {
+            "id": 50,
+            "manufacturer": "RGBKB",
+            "sellers": ["https://www.rgbkb.net/collections/all/products/zygomorph-case-plates?variant=13770055647293"],
+            "limitedrun": false,
+            "price":0,
+            "name": "Zygomorph",
+            "size":"ergonomic",
+            "material": ["acrylic"],
+            "colors": ["Frosted"]
         }
 
     ]
