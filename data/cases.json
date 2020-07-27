@@ -228,7 +228,7 @@
             "name": "Tada68 Plastic",
             "size":"65",
             "mounttype": "Tray",
-            "material": ["plastic"],
+            "material": ["Plastic"],
             "colors": ["Black"]
         },
         {
@@ -300,7 +300,7 @@
             "name": "Plastic60",
             "size":"60",
             "mounttype": "Tray",
-            "material": ["plastic"],
+            "material": ["Plastic"],
             "colors": ["Black","White","Purple","Transparent","Dark Blue"]
         },
         {
@@ -323,7 +323,7 @@
             "limitedrun": false,
             "price": 24.99,
             "name": "Iris Case/Plate",
-            "size":"Ergonomic",
+            "size":"Split Ergonomic",
             "mounttype": "Sandwich",
             "material": ["Acrylic","Aluminium", "Carbon Fiber","FR4","Stainless Steel"],
             "colors": ["Black","Purple","Green","Blue"]
@@ -335,7 +335,7 @@
             "limitedrun": false,
             "price": 19.99,
             "name": "Levinson Case/Plate",
-            "size":"Ergonomic",
+            "size":"Split Ergonomic",
             "mounttype": "Sandwich",
             "material": ["Acrylic"],
             "colors": ["Black", "Transparent"]
@@ -347,7 +347,7 @@
             "limitedrun": false,
             "price": 24.99,
             "name": "Nyquist Case/Plate",
-            "size":"Ergonomic",
+            "size":"Split Ergonomic",
             "mounttype": "Sandwich",
             "material": ["Acrylic"],
             "colors": ["Black","Transparent"]
@@ -359,7 +359,7 @@
             "limitedrun": false,
             "price": 24.99,
             "name": "Viterbi",
-            "size": "Ergonomic",
+            "size": "Split Ergonomic",
             "mounttype": "Sandwich",
             "material": [ "FR4"],
             "colors": ["Black"]
@@ -390,7 +390,7 @@
         },
         {
             "id": 32,
-            "manufacturer": "Keyboard Treehouse",
+            "manufacturer": "KeyboardTreehouse",
             "sellers": ["https://keyboardtreehouse.com/collections/in-stock/products/ext65-case-and-pcb-bundle"],
             "limitedrun": false,
             "price": 210.00,
@@ -402,7 +402,7 @@
         },
         {
             "id": 33,
-            "manufacturer": "Keyboard Treehouse",
+            "manufacturer": "KeyboardTreehouse",
             "sellers": ["https://keyboardtreehouse.com/collections/in-stock/products/wkl-60-acrylic-case"],
             "limitedrun": false,
             "price": 165.00,
@@ -414,6 +414,42 @@
         },
         {
             "id": 34,
+            "manufacturer": "KeyboardTreehouse",
+            "sellers": ["https://keyboardtreehouse.com/collections/all/products/60-tsangan-layout-acrylic-case"],
+            "limitedrun": false,
+            "price": 110.00,
+            "name": "Tsangan 60% Glass-Look",
+            "size":"60",
+            "mounttype": "Integrated",
+            "material": ["Acrylic"],
+            "colors": ["Green"]
+        },
+        {
+            "id": 35,
+            "manufacturer": "KeyboardTreehouse",
+            "sellers": ["https://keyboardtreehouse.com/collections/all/products/essential-acrylic-alice"],
+            "limitedrun": false,
+            "price": null,
+            "name": "Essential Acrylic Alice",
+            "size":"Ergonomic",
+            "mounttype": "Integrated",
+            "material": ["Acrylic"],
+            "colors": ["Green","Blue","Red"]
+        },
+        {
+            "id": 36,
+            "manufacturer": "KeyboardTreehouse",
+            "sellers": ["https://keyboardtreehouse.com/collections/all/products/ryans-austere"],
+            "limitedrun": false,
+            "price": 400.00,
+            "name": "Austere",
+            "size":"Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Aluminium"],
+            "colors": ["Black","Grey"]
+        },
+        {
+            "id": 37,
             "manufacturer": "LFKeyboards",
             "sellers": ["https://www.lfkeyboards.com/case-78k/"],
             "limitedrun": false,
@@ -425,73 +461,37 @@
             "colors": ["Black"]
         },
         {
-            "id": 35,
+            "id": 38,
             "manufacturer": "KeyHive",
             "sellers": ["https://keyhive.xyz/shop/3d-printed-corne-helidox-case"],
             "limitedrun": false,
             "price": 30.00,
             "name": "3D Printed Corne Helidox",
-            "size":"Ergonomic",
+            "size":"Split Ergonomic",
             "mounttype": "Tray",
-            "material": ["plastic"],
+            "material": ["Plastic"],
             "colors": ["Options"]
         },
         {
-            "id": 36,
+            "id": 39,
             "manufacturer": "LittleKeyboards",
             "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/corne-ceo-keyboard-case"],
             "limitedrun": false,
             "price": 374.99,
             "name": "Corne CEO",
-            "size":"Ergonomic",
+            "size":"Split Ergonomic",
             "mounttype": "Sandwich",
             "material": ["Stainless Steel", "Hardwood"],
             "colors": ["Red Oak", "Walnut"]
         },
         {
-            "id": 37,
+            "id": 40,
             "manufacturer": "LittleKeyboards",
             "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/cio-corne-keyboard-case"],
             "limitedrun": false,
             "price": 149.99,
             "name": "Corne CIO",
-            "size":"Ergonomic",
-            "mounttype": "Sandwich",
-            "material": ["Stainless Steel", "Walnut"],
-            "colors": ["Walnut"]
-        },
-        {
-            "id": 38,
-            "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/cto-corne-keyboard-case"],
-            "limitedrun": false,
-            "price": 139.99,
-            "name": "Corne CTO",
-            "size":"Ergonomic",
-            "mounttype": "Sandwich",
-            "material": ["Stainless Steel", "Red Oak"],
-            "colors": ["Red Oak"]
-        },
-        {
-            "id": 39,
-            "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/corne-cfo-keyboard-case"],
-            "limitedrun": false,
-            "price": 274.99,
-            "name": "Corne CFO",
-            "size":"Ergonomic",
-            "mounttype": "Sandwich",
-            "material": ["Brass", "Walnut"],
-            "colors": ["Walnut"]
-        },
-        {
-            "id": 40,
-            "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-cio-keyboard-case?variant=12377028919343"],
-            "limitedrun": false,
-            "price": 256.99,
-            "name": "Iris CIO",
-            "size":"Ergonomic",
+            "size":"Split Ergonomic",
             "mounttype": "Sandwich",
             "material": ["Stainless Steel", "Walnut"],
             "colors": ["Walnut"]
@@ -499,77 +499,113 @@
         {
             "id": 41,
             "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-ceo-keyboard-case-v2"],
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/cto-corne-keyboard-case"],
             "limitedrun": false,
-            "price": 295.99,
-            "name": "Iris CEO V2",
-            "size":"Ergonomic",
+            "price": 139.99,
+            "name": "Corne CTO",
+            "size":"Split Ergonomic",
             "mounttype": "Sandwich",
-            "material": ["Stainless Steel", "Hardwood"],
-            "colors": ["Red Oak","Walnut"]
+            "material": ["Stainless Steel", "Red Oak"],
+            "colors": ["Red Oak"]
         },
         {
             "id": 42,
             "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-ceo-keyboard-case-v3"],
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/corne-cfo-keyboard-case"],
             "limitedrun": false,
-            "price": 295.99,
-            "name": "Iris CEO V3",
-            "size":"Ergonomic",
-            "mounttype": "Sandwich",
-            "material": ["Stainless Steel", "Hardwood"],
-            "colors": ["Red Oak","Walnut"]
-        },
-        {
-            "id": 43,
-            "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-cfo-keyboard-case-v3"],
-            "limitedrun": false,
-            "price": null,
-            "name": "Iris CFO",
-            "size":"Ergonomic",
-            "mounttype": "Sandwich",
-            "material": ["Brass","Walnut"],
-            "colors": ["Walnut"]
-        },
-        {
-            "id": 44,
-            "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-cio-keyboard-case"],
-            "limitedrun": false,
-            "price": null,
-            "name": "Kyria CIO",
-            "size": "Ergonomic",
-            "mounttype": "Sandwich",
-            "material": ["Stainless Steel", "Walnut"],
-            "colors": ["Walnut"]
-        },
-        {
-            "id": 45,
-            "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-ceo-keyboard-case"],
-            "limitedrun": false,
-            "price": null,
-            "name": "Kyria CEO",
-            "size": "Ergonomic",
-            "mounttype": "Sandwich",
-            "material": ["Stainless Steel", "Acrylic"],
-            "colors": ["Grey"]
-        },
-        {
-            "id": 46,
-            "manufacturer": "LittleKeyboards",
-            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-cfo-keyboard-case"],
-            "limitedrun": false,
-            "price": null,
-            "name": "Kyria CFO",
-            "size": "Ergonomic",
+            "price": 274.99,
+            "name": "Corne CFO",
+            "size":"Split Ergonomic",
             "mounttype": "Sandwich",
             "material": ["Brass", "Walnut"],
             "colors": ["Walnut"]
         },
         {
+            "id": 43,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-cio-keyboard-case?variant=12377028919343"],
+            "limitedrun": false,
+            "price": 256.99,
+            "name": "Iris CIO",
+            "size":"Split Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Stainless Steel", "Walnut"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 44,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-ceo-keyboard-case-v2"],
+            "limitedrun": false,
+            "price": 295.99,
+            "name": "Iris CEO V2",
+            "size":"Split Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Stainless Steel", "Hardwood"],
+            "colors": ["Red Oak","Walnut"]
+        },
+        {
+            "id": 45,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-ceo-keyboard-case-v3"],
+            "limitedrun": false,
+            "price": 295.99,
+            "name": "Iris CEO V3",
+            "size":"Split Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Stainless Steel", "Hardwood"],
+            "colors": ["Red Oak","Walnut"]
+        },
+        {
+            "id": 46,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/iris-cfo-keyboard-case-v3"],
+            "limitedrun": false,
+            "price": null,
+            "name": "Iris CFO",
+            "size":"Split Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Brass","Walnut"],
+            "colors": ["Walnut"]
+        },
+        {
             "id": 47,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-cio-keyboard-case"],
+            "limitedrun": false,
+            "price": null,
+            "name": "Kyria CIO",
+            "size": "Split Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Stainless Steel", "Walnut"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 48,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-ceo-keyboard-case"],
+            "limitedrun": false,
+            "price": null,
+            "name": "Kyria CEO",
+            "size": "Split Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Stainless Steel", "Acrylic"],
+            "colors": ["Grey"]
+        },
+        {
+            "id": 49,
+            "manufacturer": "LittleKeyboards",
+            "sellers": ["https://www.littlekeyboards.com/collections/custom-cases/products/kyria-cfo-keyboard-case"],
+            "limitedrun": false,
+            "price": null,
+            "name": "Kyria CFO",
+            "size": "Split Ergonomic",
+            "mounttype": "Sandwich",
+            "material": ["Brass", "Walnut"],
+            "colors": ["Walnut"]
+        },
+        {
+            "id": 50,
             "manufacturer": "MelGeek",
             "sellers": ["https://www.melgeek.com/collections/keyboard-case/products/melgeek-mojo60-mechanical-keyboard-case"],
             "limitedrun": false,
@@ -581,7 +617,7 @@
             "colors": ["Silver","Grey","Black","Stormtrooper White","Corvette Yellow","Prisom Pink","Robin's Egg Blue","Electric Yellow","Sky Blue", "Nra Blue", "Bright Purple","Zombie Green","Sig Pink","Desert Sand"]
         },
         {
-            "id": 48,
+            "id": 51,
             "manufacturer": "MTBKeyboards",
             "sellers": ["https://mtbkeys.com/shop/ols/products/hb60-honeyboard-60-cnc-aluminum-case-kit"],
             "limitedrun": false,
@@ -593,7 +629,7 @@
             "colors": ["Polished","Black","Blue","gold"]
         },
         {
-            "id": 49,
+            "id": 52,
             "manufacturer": "MyKeyboard",
             "sellers": ["https://mykeyboard.eu/catalogue/category/parts_73/"],
             "limitedrun": false,
@@ -605,7 +641,7 @@
             "colors": ["Violet","Green","Red","Blue","Grey","Black","Light Sand","O.D. Green","Stromtrooper White","Bone White"]
         },
         {
-            "id": 50,
+            "id": 53,
             "manufacturer": "OLKB",
             "sellers": ["https://olkb.com/products/planck-lo-pro-bottom-case"],
             "limitedrun": false,
@@ -617,7 +653,7 @@
             "colors": ["Silver","Black","Random Color"]
         },
         {
-            "id": 51,
+            "id": 54,
             "manufacturer": "OLKB",
             "sellers": ["https://olkb.com/products/planck-mid-pro-bottom-case"],
             "limitedrun": false,
@@ -629,7 +665,7 @@
             "colors": ["Black"]
         },
         {
-            "id": 52,
+            "id": 55,
             "manufacturer": "OLKB",
             "sellers": ["https://olkb.com/products/planck-hi-pro-bottom"],
             "limitedrun": false,
@@ -641,7 +677,7 @@
             "colors": ["Black","White","Black Wrinkle"]
         },
         {
-            "id": 53,
+            "id": 56,
             "manufacturer": "OLKB",
             "sellers": ["https://olkb.com/products/planck-hi-pro-bottom-case-mod-version"],
             "limitedrun": false,
@@ -653,7 +689,7 @@
             "colors": ["Black","White"]
         },
         {
-            "id": 54,
+            "id": 57,
             "manufacturer": "OpticBoards",
             "sellers": ["https://www.opticboards.com/shop/aluminium-low-profile-case-for-60-boards/"],
             "limitedrun": false,
@@ -665,7 +701,7 @@
             "colors": ["Black","Blue","Purple","Orange","Grey","Red","Silver","Gold"]
         },
         {
-            "id": 55,
+            "id": 58,
             "manufacturer": "OpticBoards",
             "sellers": ["https://www.opticboards.com/shop/aluminium-high-profile-case-for-60-boards/"],
             "limitedrun": false,
@@ -677,7 +713,7 @@
             "colors": ["Blue","Purple","Grey","Red"]
         },
         {
-            "id": 56,
+            "id": 59,
             "manufacturer": "OpticBoards",
             "sellers": ["https://www.opticboards.com/shop/plastic-low-profile-case-for-60-boards/"],
             "limitedrun": false,
@@ -689,7 +725,7 @@
             "colors": ["Blue","Opal","White","Black","Pink","Transparent"]
         },
         {
-            "id": 57,
+            "id": 60,
             "manufacturer": "OriginativeCo.",
             "sellers": ["https://www.originativeco.com/products/lambo?_pos=1&_sid=3514103e7&_ss=r"],
             "limitedrun": false,
@@ -701,17 +737,103 @@
             "colors": ["Black","Red","Silver"]
         },
         {
-            "id": 58,
+            "id": 61,
             "manufacturer": "RGBKB",
             "sellers": ["https://www.rgbkb.net/collections/all/products/zygomorph-case-plates?variant=13770055647293"],
             "limitedrun": false,
             "price": 45.00,
             "name": "Zygomorph",
-            "size":"Ergonomic",
+            "size":"Split Ergonomic",
             "mounttype": "Tray",
             "material": ["Acrylic"],
             "colors": ["Frosted"]
+        },
+        {
+            "id": 62,
+            "manufacturer": "Sentraq",
+            "sellers": [""],
+            "limitedrun": false,
+            "price": 49.99,
+            "name": "60% Aluminum/Acrylic Sandwich Case",
+            "size": "60",
+            "mounttype": "Sandwich/Integrated",
+            "material": ["Aluminium"],
+            "colors": ["Silver","Black","Gunmetal","Rose Gold","Champagne","Cyan","Purple"]
         }
+        ,
+        {
+            "id": 63,
+            "manufacturer": "Sentraq",
+            "sellers": ["https://sentraq.com/collections/all/products/60-aluminum-high-profile-case?variant=13032222294039"],
+            "limitedrun": false,
+            "price": 119.00,
+            "name": "60% Aluminum High Profile Case",
+            "size":"60",
+            "mounttype": "Tray",
+            "material": ["Aluminium"],
+            "colors": ["Silver","Gunmetal","Cyan","Purple"]
+        },
+        {
+            "id": 64,
+            "manufacturer": "Sentraq",
+            "sellers": ["https://sentraq.com/collections/all/products/60-aluminum-case"],
+            "limitedrun": false,
+            "price": 49.99,
+            "name": "60% Aluminum Case",
+            "size":"60",
+            "mounttype": "Tray",
+            "material": ["Aluminium"],
+            "colors": ["Silver","Black","Purple","Cyan","Gunmetal","Rose Gold","Champagne","Blue","Red","Orange"]
+        },
+        {
+            "id": 65,
+            "manufacturer": "Sentraq",
+            "sellers": ["https://sentraq.com/collections/all/products/60-plastic-case"],
+            "limitedrun": false,
+            "price": 14.99,
+            "name": "60% Plastic Case",
+            "size":"60",
+            "mounttype": "Tray",
+            "material": ["Plastic"],
+            "colors": ["White","Black","Transparent","Light Purple/Pink"]
+        },
+        {
+            "id": 66,
+            "manufacturer": "Sentraq",
+            "sellers": ["https://sentraq.com/collections/all/products/60-acrylic-case"],
+            "limitedrun": false,
+            "price": 49.99,
+            "name": "60% Acrylic Case",
+            "size":"60",
+            "mounttype": "Tray",
+            "material": ["Acrylic"],
+            "colors": ["Frosted"]
+        },
+        {
+            "id": 67,
+            "manufacturer": "Sentraq",
+            "sellers": ["https://sentraq.com/collections/all/products/60-plastic-case"],
+            "limitedrun": false,
+            "price": 89.99,
+            "name": "60% Acrylic High Profile Case",
+            "size":"60",
+            "mounttype": "Tray",
+            "material": ["Acrylic"],
+            "colors": ["Frosted"]
+        },
+        {
+            "id": 68,
+            "manufacturer": "Sentraq",
+            "sellers": ["https://sentraq.com/collections/all/products/65-aluminum-acrylic-sandwich-case"],
+            "limitedrun": false,
+            "price": 50.99,
+            "name": "65% Aluminum/Acrylic Sandwich Case",
+            "size":"65",
+            "mounttype": "Sandwich",
+            "material": ["Aluminium"],
+            "colors": ["Silver","Black","Gunmetal"]
+        }
+
 
     ]
 
