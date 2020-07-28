@@ -1,579 +1,1684 @@
+
 {
-    "pcbs":[
-       {
-        "id": 0,
-        "manufacturer": "kbdfans",
-        "name": "KBD8X MKII",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/gb-kbd8x-mkii-pcb"],
-        "size": "87",
-        "color": "black",
-        "rgbunderglow": false,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 1,
-        "manufacturer": "kbdfans",
-        "name": "KBD6x",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbdfans-kbd6x-hot-swap-pcb"],
-        "size": "60",
-        "color": "white",
-        "rgbunderglow": false,
-        "rgbswitch": false,
-        "hotswappable": true,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 2,
-        "manufacturer": "kbdfans",
-        "name": "KBD67MKII",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbd67mkii-pcb"],
-        "size": "65",
-        "color": "black",
-        "rgbunderglow": false,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 3,
-        "manufacturer": "kbdfans",
-        "name": "DZ60RGB ANSI V2",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/dz60rgb-ansi-mechanical-keyboard-pcb"],
-        "size": "60",
-        "color": "black",
-        "rgbunderglow": false,
-        "rgbswitch": true,
-        "hotswappable": true,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 4,
-        "manufacturer": "kbdfans",
-        "name": "KBD75 REV 2.0",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbdfans-75-pcb-75"],
-        "size": "75",
-        "color": "white",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 5,
-        "manufacturer": "kbdfans",
-        "name": "KBD67 V2 MKII RGB",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbd67-mkii-pcb"],
-        "size": "65",
-        "color": "black",
-        "rgbunderglow": false,
-        "rgbswitch": true,
-        "hotswappable": true,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 6,
-        "manufacturer": "kbdfans",
-        "name": "DZ65 RGB V2",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/dz68rgb-hot-swap-rgb-pcb"],
-        "size": "65",
-        "color": "black",
-        "rgbunderglow": false,
-        "rgbswitch": true,
-        "hotswappable": true,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 7,
-        "manufacturer": "kbdfans",
-        "name": "DZ60 RGB V2",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/dz60rgb-hot-swap-custom-keyboard-pcb"],
-        "size": "60",
-        "color": "black",
-        "rgbunderglow": false,
-        "rgbswitch": true,
-        "hotswappable": true,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 8,
-        "manufacturer": "kbdfans",
-        "name": "KBDPAD V2",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbdfans-kbdpad-pcb-v2"],
-        "size": "20",
-        "color": "black",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "",
-        "usboptions": ["Mini USB"]
-        
-       },
-       {
-        "id": 9,
-        "manufacturer": "kbdfans",
-        "name": "DZ60 Rev 3.0",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/dz60-60-pcb","https://sentraq.com/collections/all/products/dz60"],
-        "size": "60",
-        "color": "black",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Type-C","Mini USB"]
-        
-       },
-       {
-        "id": 10,
-        "manufacturer": "kbdfans",
-        "name": "KBD67 REV 2.0",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbd65-65-custom-mechanical-keyboard-pcb"],
-        "size": "65",
-        "color": "black",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 11,
-        "manufacturer": "kbdfans",
-        "name": "NIU MINI",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/niu-mini-40-pcb-full-program"],
-        "size": "40",
-        "color": "white",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Mini USB"]
-        
-       },
-       {
-        "id": 12,
-        "manufacturer": "kbdfans",
-        "name": "GK64 RGB",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/gk64-rgb-60-64keys-hot-swap-pcb"],
-        "size": "60",
-        "color": "white",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": true,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-        "id": 13,
-        "manufacturer": "kbdfans",
-        "name": "KBD19X",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbdfans-kbd19x-pcb?variant=33955934830731"],
-        "size": "95",
-        "color": "white",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Mini USB"]
-        
-       },
-       {
-        "id": 14,
-        "manufacturer": "kbdfans",
-        "name": "KBD8X",
-        "sellers": ["https://kbdfans.com/collections/pcb/products/kbdfans-kbd8x-pcb"],
-        "size": "80",
-        "color": "white",
-        "rgbunderglow": true,
-        "rgbswitch": false,
-        "hotswappable": false,
-        "firmware": "QMK",
-        "usboptions": ["Type-C"]
-        
-       },
-       {
-            "id": 15,
-            "manufacturer": "Keebio",
-            "name": "Iris",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/iris-keyboard-split-ergonomic-keyboard"],
-            "size": "",
-            "ergonomic": true,
-            "color": "purple",
-            "rgbunderglow": true,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Type-C"]
-        },
+    "pcbs": [
         {
-            "id": 16,
-            "manufacturer": "Keebio",
-            "name": "Nyquist Rev. 3",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/nyquist-keyboard?variant=29395149291614"],
-            "size": "60",
-            "ergonomic": true,
-            "color": "purple",
-            "rgbunderglow": true,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Type-C"]
-        },
-        {
-            "id": 17,
-            "manufacturer": "Keebio",
-            "name": "Nyquist Rev. 2.1",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/nyquist-keyboard?variant=48309345990"],
-            "size": "60",
-            "ergonomic": true,
-            "color": "white",
-            "rgbunderglow": true,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
-        },
-        {
-            "id": 18,
-            "manufacturer": "Keebio",
-            "name": "Quefrency",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/quefrency-60-65-split-staggered-keyboard"],
-            "size": "60",
-            "ergonomic": true,
-            "color": "black",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
-        },
-        {
-            "id": 19,
-            "manufacturer": "Keebio",
-            "name": "Levinson",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/levinson-lets-split-w-led-backlight"],
-            "size": "40",
-            "ergonomic": true,
-            "color": "white",
-            "rgbunderglow": true,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
-        },
-        {
-            "id": 20,
-            "manufacturer": "Keebio",
-            "name": "Dilly",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/dilly-3x10-ortholinear-keyboard-for-kailh-choc-low-profile-switches"],
-            "size": "30",
-            "ergonomic": false,
-            "color": "green",
-            "rgbunderglow": false,
-            "rgbswitch": true,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB","Type-C"]
-        },
-        {
-            "id": 21,
-            "manufacturer": "Keebio",
-            "name": "Viterbi Rev 2.0",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/viterbi-keyboard-pcbs-5x7-70-split-ortholinear"],
-            "size": "70",
-            "ergonomic": true,
-            "color": "white",
-            "rgbunderglow": true,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
-        },
-        {
-            "id": 22,
-            "manufacturer": "Keebio",
-            "name": "Big Switch",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/big-switch-pcb"],
-            "size": "1",
-            "ergonomic": true,
-            "color": "white",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB","Type-C"]
-        },
-        {
-            "id": 23,
-            "manufacturer": "Keebio",
-            "name": "BDN9",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/bdn9-3x3-9-key-macropad-rotary-encoder-support"],
-            "size": "9",
-            "ergonomic": true,
-            "color": "green",
-            "rgbunderglow": false,
-            "rgbswitch": true,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB","Type-C"]
-        },
-        {
-            "id": 24,
-            "manufacturer": "Keebio",
-            "name": "Chocopad",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/chocopad-16-key-macropad-for-kailh-choc-low-profile-switches"],
-            "size": "16",
-            "ergonomic": false,
-            "color": "green",
-            "rgbunderglow": false,
-            "rgbswitch": true,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB","Type-C"]
-        },
-        {
-            "id": 25,
-            "manufacturer": "Keebio",
-            "name": "BFO-9000",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear"],
-            "size": "",
-            "ergonomic": true,
-            "color": "black",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB","Type-C"]
-        },
-        {
-            "id": 26,
-            "manufacturer": "Keebio",
-            "name": "Laplace",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/laplace-40-staggered-keyboard"],
-            "size": "40",
-            "ergonomic": false,
-            "color": "black",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
-        },
-        {
-            "id": 27,
-            "manufacturer": "Keebio",
-            "name": "Amoeba",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/amoeba-single-switch-pcbs"],
-            "size": "1",
-            "ergonomic": true,
-            "color": "white",
-            "rgbunderglow": false,
-            "rgbswitch": true,
-            "hotswappable": false,
-            "firmware": "",
-            "usboptions": []
-        },
-        {
-            "id": 28,
-            "manufacturer": "Keebio",
-            "name": "Tragicforce 68",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/mf68-magicforce-68-pcb-replacement-kit"],
-            "size": "70",
-            "ergonomic": false,
-            "color": "black",
-            "rgbunderglow": false,
-            "rgbswitch": true,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB","Type-C","Mini-USB"]
-        },
-        {
-            "id": 29,
-            "manufacturer": "Keebio",
-            "name": "Rorschach",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/rorschach-keyboard-40-split-ortholinear-w-thumb-keys"],
-            "size": "40",
-            "ergonomic": true,
-            "color": "white",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
-        },
-        {
-            "id": 30,
-            "manufacturer": "Keebio",
-            "name": "Tukey",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/tukey-1x2-big-switch-macropad"],
-            "size": "2",
-            "ergonomic": false,
-            "color": "white",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Micro-USB","Type-C"]
-        },
-        {
-            "id": 31,
-            "manufacturer": "Keebio",
-            "name": "Ergodicity",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/ergodicity-60-kailh-choc-low-profile-board"],
-            "size": "60",
-            "ergonomic": false,
-            "color": "",
-            "rgbunderglow": true,
-            "rgbswitch": true,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Type-C"]
-        },
-        {
-            "id": 32,
-            "manufacturer": "Keebio",
-            "name": "WTF60",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/wtf60-mirrored-60-keyboard-pcb"],
-            "size": "60",
-            "ergonomic": false,
-            "color": "white",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": [""]
-        },
-        {
-            "id": 33,
-            "manufacturer": "Keebio",
-            "name": "Sinc",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/sinc-split-staggered-75-keyboard"],
-            "size": "75",
-            "ergonomic": true,
-            "color": "purple",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": [""]
-        },
-        {
-            "id": 34,
-            "manufacturer": "Keebio",
-            "name": "KBO-5000",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/kbo-5000-split-staggered-80-keyboard"],
-            "size": "80",
-            "ergonomic": true,
-            "color": "green",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": [""]
-        },
-        {
-            "id": 35,
-            "manufacturer": "Keebio",
-            "name": "Choconum",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/choconum-kailh-choc-numpad"],
-            "size": "10",
-            "ergonomic": false,
-            "color": "green",
-            "rgbunderglow": false,
-            "rgbswitch": false,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Type-C"]
-        },
-        {
-            "id": 36,
-            "manufacturer": "Keebio",
-            "name": "JNAO",
-            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/jnao-5x12-and-4x12-ortholinear-pcb"],
-            "size": "40",
-            "ergonomic": false,
-            "color": "blue",
-            "rgbunderglow": false,
-            "rgbswitch": true,
-            "hotswappable": false,
-            "firmware": "QMK",
-            "usboptions": ["Type-C"]
-        },
-        {
-            "id": 37,
+            "id": 1,
             "manufacturer": "1UPKeyboards",
             "name": "Zlant",
-            "sellers": ["https://www.1upkeyboards.com/shop/controllers/zlant-40-keyboard-pcb/"],
+            "sellers": [ "https://www.1upkeyboards.com/shop/controllers/zlant-40-keyboard-pcb/" ],
+            "price": 45.00,
             "size": "40",
             "ergonomic": false,
-            "color": "black",
+            "ortholinear": false,
+            "colors":[ "Black"],
             "rgbunderglow": true,
             "rgbswitch": false,
             "hotswappable": false,
             "firmware": "QMK",
-            "usboptions": ["Mini-USB"]
+            "usboptions": [
+                "Mini-USB"
+            ]
         },
         {
-            "id": 38,
+            "id": 1,
+            "manufacturer": "1UPKeyboards",
+            "name": "1UP RGB 60% PCB HTE",
+            "sellers": [ "https://www.1upkeyboards.com/shop/controllers/1up-rgb-60-pcb-hte/" ],
+            "price": 55.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
             "manufacturer": "1UPKeyboards",
             "name": "JD40 MKII",
-            "sellers": ["https://www.1upkeyboards.com/shop/controllers/jd40-mkii-1up-keyboards-logo-pcb/"],
+            "sellers": [ "https://www.1upkeyboards.com/shop/controllers/jd40-mkii-1up-keyboards-logo-pcb/" ],
+            "price": 45.00,
             "size": "40",
             "ergonomic": false,
-            "color": "black",
+            "ortholinear": false,
+            "colors":[ "Black"],
             "rgbunderglow": false,
             "rgbswitch": true,
             "hotswappable": false,
             "firmware": "TMK",
-            "usboptions": ["Mini-USB"]
+            "usboptions": [
+                "Mini-USB"
+            ]
         },
         {
-            "id": 39,
+            "id": 1,
             "manufacturer": "1UPKeyboards",
             "name": "Super 16 Macro Pad",
-            "sellers": ["https://www.1upkeyboards.com/shop/keyboard-kits/macro-pads/super-16-macro-pad/"],
+            "sellers": [ "https://www.1upkeyboards.com/shop/keyboard-kits/macro-pads/super-16-macro-pad/" ],
+            "price": 10.00,
             "size": "16",
             "ergonomic": false,
-            "color": "black",
+            "ortholinear": false,
+            "colors":[ "Black"],
             "rgbunderglow": true,
             "rgbswitch": false,
             "hotswappable": false,
             "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
+            "usboptions": [
+                "Micro-USB"
+            ]
         },
         {
-            "id": 40,
+            "id": 1,
             "manufacturer": "1UPKeyboards",
             "name": "Sweet 16 Macro Pad",
-            "sellers": ["https://www.1upkeyboards.com/shop/keyboard-kits/macro-pads/sweet16-macro-pad-white/"],
+            "sellers": [ "https://www.1upkeyboards.com/shop/keyboard-kits/macro-pads/sweet16-macro-pad-white/" ],
+            "price": 7.50,
             "size": "16",
             "ergonomic": false,
-            "color": "white",
+            "ortholinear": false,
+            "colors":[ "White"],
             "rgbunderglow": true,
             "rgbswitch": false,
             "hotswappable": false,
             "firmware": "QMK",
-            "usboptions": ["Micro-USB"]
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "CannonKeys",
+            "name": "Instant60 PCB",
+            "sellers": [ "https://cannonkeys.com/collections/pcbs/products/preorder-instant60-pcb" ],
+            "price": 60.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "CannonKeys",
+            "name": "AN-C 60% PCB",
+            "sellers": [ "https://cannonkeys.com/collections/pcbs/products/an-c-60-pcb" ],
+            "price": 45.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "CannonKeys",
+            "name": "Savage65 PCB",
+            "sellers": [ "https://cannonkeys.com/collections/pcbs/products/savage65-pcb" ],
+            "price": 40.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Clueboard",
+            "name": "Clueboard 66% PCB ",
+            "sellers": [ "https://clueboard.co/parts/clueboard-66-pcb-25-hbljl" ],
+            "price": 69.99,
+            "size": "66",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White" ],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Clueboard",
+            "name": "Clueboard California Macropad",
+            "sellers": [ "https://clueboard.co/parts/clueboard-california-macropad-kit" ],
+            "price": 39.99,
+            "size": "Other",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Blue" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD8X MKII",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/gb-kbd8x-mkii-pcb" ],
+            "price": 55.00,
+            "size": "87",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD6x",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbdfans-kbd6x-hot-swap-pcb" ],
+            "price": 40.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD67MKII",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbd67mkii-pcb" ],
+            "price": 39.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "DZ60RGB ANSI V2",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/dz60rgb-ansi-mechanical-keyboard-pcb" ],
+            "price": 55.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD75 REV 2.0",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbdfans-75-pcb-75" ],
+            "price": 40.00,
+            "size": "75",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD67 V2 MKII RGB",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbd67-mkii-pcb" ],
+            "price": 55.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "DZ65 RGB V2",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/dz68rgb-hot-swap-rgb-pcb" ],
+            "price": 60.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "DZ60 RGB V2",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/dz60rgb-hot-swap-custom-keyboard-pcb" ],
+            "price": 55.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBDPAD V2",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbdfans-kbdpad-pcb-v2" ],
+            "price": 25.00,
+            "size": "20",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "DZ60 Rev 3.0",
+            "sellers": [ 
+                "https://kbdfans.com/collections/pcb/products/dz60-60-pcb",
+                "https://sentraq.com/collections/all/products/dz60",
+                "https://auramech.com/collections/pcbs/products/kbdfans-dz60-rev-3-0-60-pcb" 
+            ],
+            "price": 40.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C",
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD67 REV 2.0",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbd65-65-custom-mechanical-keyboard-pcb" ],
+            "price": 39.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "NIU MINI",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/niu-mini-40-pcb-full-program" ],
+            "price": 35.00,
+            "size": "40",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "GK64 RGB",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/gk64-rgb-60-64keys-hot-swap-pcb" ],
+            "price": 45.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD19X",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbdfans-kbd19x-pcb?variant=33955934830731" ],
+            "price": 60.00,
+            "size": "95",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KBDFans",
+            "name": "KBD8X",
+            "sellers": [ "https://kbdfans.com/collections/pcb/products/kbdfans-kbd8x-pcb" ],
+            "price": 45.00,
+            "size": "80",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Iris",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/iris-keyboard-split-ergonomic-keyboard" ],
+            "price": 59.99,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Purple"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Nyquist Rev. 3",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/nyquist-keyboard?variant=29395149291614" ],
+            "price": 54.99,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Purple"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Nyquist Rev. 2.1",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/nyquist-keyboard?variant=48309345990" ],
+            "price": 19.99,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Quefrency Rev. 1",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/quefrency-60-65-split-staggered-keyboard" ],
+            "price": 12.99,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Levinson",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/levinson-lets-split-w-led-backlight" ],
+            "price": 19.99,
+            "size": "40",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Dilly",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/dilly-3x10-ortholinear-keyboard-for-kailh-choc-low-profile-switches" ],
+            "price": 14.99,
+            "size": "30",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Green"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB",
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Viterbi Rev 2.0",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/viterbi-keyboard-pcbs-5x7-70-split-ortholinear" ],
+            "price": 19.99,
+            "size": "70",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Big Switch",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/big-switch-pcb" ],
+            "price": 5.99,
+            "size": "1",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB",
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "BDN9",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/bdn9-3x3-9-key-macropad-rotary-encoder-support" ],
+            "price": 12.99,
+            "size": "9",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Green"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB",
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Chocopad",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/chocopad-16-key-macropad-for-kailh-choc-low-profile-switches" ],
+            "price": 9.99,
+            "size": "16",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Green"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB",
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "BFO-9000",
+            "sellers": [ "https://keeb.io/collections/keyboard-pcbs/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear" ],
+            "price": 19.99,
+            "size": "Other",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB",
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Laplace",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/laplace-40-staggered-keyboard" ],
+            "price": 39.99,
+            "size": "40",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Amoeba",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/amoeba-single-switch-pcbs" ],
+            "price": 4.99,
+            "size": "Other",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": null,
+            "usboptions": [null]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Tragicforce 68",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/mf68-magicforce-68-pcb-replacement-kit" ],
+            "price": 10.99,
+            "size": "70",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB",
+                "Type-C",
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Rorschach",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/rorschach-keyboard-40-split-ortholinear-w-thumb-keys" ],
+            "price": 37.99,
+            "size": "40",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Tukey",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/tukey-1x2-big-switch-macropad" ],
+            "price": 5.99,
+            "size": "2",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [ "Micro-USB", "Type-C" ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "WTF60",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/wtf60-mirrored-60-keyboard-pcb" ],
+            "price": 45.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [ null ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Sinc",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/sinc-split-staggered-75-keyboard" ],
+            "price": 59.99,
+            "size": "75",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Purple"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [ "Type-C" ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "KBO-5000",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/kbo-5000-split-staggered-80-keyboard" ],
+            "price": 59.99,
+            "size": "80",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Green"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [null]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "Choconum",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/choconum-kailh-choc-numpad" ],
+            "price": 19.99,
+            "size": "10",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Green"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [ "Type-C" ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keebio",
+            "name": "JNAO",
+            "sellers": ["https://keeb.io/collections/keyboard-pcbs/products/jnao-5x12-and-4x12-ortholinear-pcb" ],
+            "price": 39.99,
+            "size": "40",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Blue"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [ "Type-C" ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keeeb!",
+            "name": "IVY PCB",
+            "sellers": [ "https://www.keeeb.co/store/p2/IVY_PCB.html" ],
+            "price": 24.99,
+            "size": "Other",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KeyboardTreehouse",
+            "name": "EXT65 R2 PCB",
+            "sellers": [ "https://keyboardtreehouse.com/collections/pcbs/products/ext65-r2-pcb" ],
+            "price": 70.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KeyboardTreehouse",
+            "name": "Dawn60 PCB",
+            "sellers": [ "https://keyboardtreehouse.com/collections/pcbs/products/xeluss-dawn60-pcb" ],
+            "price": 70.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keycult",
+            "name": "Tenkeyless PCB ",
+            "sellers": [ "https://keycult.com/collections/accessories/products/wt80-a-pcb-tkl-1" ],
+            "price": 65.00,
+            "size": "80",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Red" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keycult",
+            "name": "WT60-A PCB",
+            "sellers": [ "https://keycult.com/collections/accessories/products/wt60-a-pcb-60" ],
+            "price": 65.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Red" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Keycult",
+            "name": "WT65-A PCB",
+            "sellers": [ "https://keycult.com/collections/accessories/products/wt65-a-pcb-65" ],
+            "price": 65.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Red" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KeyHive",
+            "name": "UT47.2 PCB Kit",
+            "sellers": [ "https://keyhive.xyz/shop/ut472-kit" ],
+            "price": 35.00,
+            "size": "40",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KeyHive",
+            "name": "Nightmare PCB",
+            "sellers": [ "https://keyhive.xyz/shop/nightmare-pcb-and-case" ],
+            "price": 30.00,
+            "size": "40",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "KeyHive",
+            "name": "Corne (Helidox) PCBs",
+            "sellers": [ "https://keyhive.xyz/shop/hotswap-corne-helidox" ],
+            "price": 13.00,
+            "size": "",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "Custom",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "LFK-TKL",
+            "sellers": [ "https://www.lfkeyboards.com/lfk-tkl/" ],
+            "price": 70.00,
+            "size": "80",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB",
+                "JST-PH"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "LFK65-HS",
+            "sellers": [ "https://www.lfkeyboards.com/lfk65-hs/" ],
+            "price": 75.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "LFK78",
+            "sellers": [ "https://www.lfkeyboards.com/lfk78/" ],
+            "price": 70.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "LFK78-HS",
+            "sellers": [ "https://www.lfkeyboards.com/lfk78-hs/" ],
+            "price": 75.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "LFKPad",
+            "sellers": [ "https://www.lfkeyboards.com/lfkpad/" ],
+            "price": 60.00,
+            "size": "Other",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White"],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "SMK-TKL",
+            "sellers": [ "https://www.lfkeyboards.com/smk-tkl/" ],
+            "price": 70.00,
+            "size": "80",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB",
+                "JST-PH"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "SMK65",
+            "sellers": [ "https://www.lfkeyboards.com/smk65/" ],
+            "price": 70.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Blue"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LFKeyboards",
+            "name": "SMK78",
+            "sellers": [ "https://www.lfkeyboards.com/smk78/" ],
+            "price": 70.00,
+            "size": "80",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Blue"],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Corne Light PCB ",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/corne-light-pcb-kit" ],
+            "price": 17.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Corne Classic PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/crkbd-classic-essentials-kit" ],
+            "price": 18.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Corne MX Hotswap PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/corne-mx-hotswap-kit" ],
+            "price": 22.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue","Purple","Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Corne Choc Hotswap PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/corne-choc-hotswap-kit" ],
+            "price": 22.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Black","White"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Fortitude60 Kit",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/fortitude-keyboard-kit" ],
+            "price": 124.99,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "White "],
+            "rgbunderglow": false,
+            "rgbswitch": false ,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Kyria PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/kyria-pcb-kit" ],
+            "price": 26.99,
+            "size": "40",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Black" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Helix PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/helix-pcb-kit" ],
+            "price": 18.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue"],
+            "rgbunderglow": false ,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Helix Hotswap PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/helix-hotswap-pcb-kit" ],
+            "price": 24.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue"],
+            "rgbunderglow": false ,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Lily58 PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/lily58-pcb-kit" ],
+            "price": 19.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue"],
+            "rgbunderglow": false ,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Lily58 Pro PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/lily58-pro-pcb-kit" ],
+            "price": 24.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue","Black"],
+            "rgbunderglow": false ,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Pinky3 PCB",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/pinky3-keyboard-kit" ],
+            "price": 22.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": true,
+            "colors":[ "Blue","Black"],
+            "rgbunderglow": false ,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Pinky4 PCB ",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/pinky4-keyboard-kit" ],
+            "price": 23.99,
+            "size": "Split",
+            "ergonomic": true,
+            "ortholinear": true,
+            "colors":[ "Red","Black"],
+            "rgbunderglow": false ,
+            "rgbswitch": false,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "LittleKeyboards",
+            "name": "Reviung39 Keyboard Kit",
+            "sellers": [ "https://www.littlekeyboards.com/collections/catalog/products/reviung39-keyboard-kit" ],
+            "price": 53.99,
+            "size": "Other",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue","Black"],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Mechboards",
+            "name": "HS60 Hotswap PCB",
+            "sellers": [ "https://mechboards.co.uk/shop/parts/hs60-hotswap-pcb/" ],
+            "price": 84.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black"],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Mechboards",
+            "name": "OK60 PCB",
+            "sellers": [ "https://mechboards.co.uk/shop/parts/ok60-pcb/" ],
+            "price": 52.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White" ],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Mechboards",
+            "name": "Satan GH60",
+            "sellers": [ "https://mechboards.co.uk/shop/parts/satan-gh60-60-pcb/" ],
+            "price": 46.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Mechboards",
+            "name": "YMD68 PCB",
+            "sellers": [ "https://mechboards.co.uk/shop/parts/65-pcb/" ],
+            "price": 59.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Mehkee",
+            "name": "Let's Split PCBs",
+            "sellers": [ "https://mehkee.com/collections/switches-and-parts/products/lets-split-pcb" ],
+            "price": 8.99,
+            "size": "40",
+            "ergonomic": true,
+            "ortholinear": true,
+            "colors":[ "Blue","Black","White" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        
+        {
+            "id": 1,
+            "manufacturer": "MTBKeyboards",
+            "name": "AN-C 60% PCB",
+            "sellers": [ "https://mtbkeys.com/shop/ols/products/an-c-60-pcb-a-stock" ],
+            "price": 45.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Black" ],
+            "rgbunderglow": true,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "OLKB",
+            "name": "Planck PCB Rev 6.1",
+            "sellers": [ "https://olkb.com/products/planck-pcb" ],
+            "price": 55.00,
+            "size": "40",
+            "ergonomic": false,
+            "ortholinear": true,
+            "colors":[ "Black" ],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "OLKB",
+            "name": "Preonic PCB Rev 3",
+            "sellers": [ "https://olkb.com/products/preonic-pcb" ],
+            "price": null,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": true,
+            "colors":[ "Black" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "ProfetKeyboards",
+            "name": "Atreus62 PCB",
+            "sellers": [ "https://shop.profetkeyboards.com/product/atreus62-pcb" ],
+            "price": 29.99,
+            "size": "65",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "ProfetKeyboards",
+            "name": "Ergodox PCB",
+            "sellers": [ "https://shop.profetkeyboards.com/product/ergodox-pcbs" ],
+            "price": 25.99,
+            "size": "70",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Blue" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Profet Keyboards",
+            "name": "Atreus PCB",
+            "sellers": [ "https://shop.profetkeyboards.com/product/atreus-pcb" ],
+            "price": 25.99,
+            "size": "40",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Red" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Micro-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Profet Keyboards",
+            "name": "MiniDox PCB",
+            "sellers": [ "https://shop.profetkeyboards.com/product/minidox-pcb-set" ],
+            "price": 15.99,
+            "size": "Other",
+            "ergonomic": true,
+            "ortholinear": false,
+            "colors":[ "Black" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "Custom",
+            "usboptions": [
+                "Custom"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "RGBKB",
+            "name": "The Zygomorph Keyboard PCB",
+            "sellers": [ "https://www.rgbkb.net/collections/all/products/zygomorph-keyboard?variant=12897472282685" ],
+            "price": 40.00,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": true,
+            "colors":[ "White","Black" ],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "RGBKB",
+            "name": "The Sol 2 PCB",
+            "sellers": [ "https://www.rgbkb.net/collections/all/products/the-sol-2-keyboard-pcb?variant=14099566657597" ],
+            "price": 80.00,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": true,
+            "colors":[ "White" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "RGBKB",
+            "name": "Pan DIY Keyboard PCB",
+            "sellers": [ "https://www.rgbkb.net/collections/all/products/pan-keyboard-diy-kit" ],
+            "price": 47.00,
+            "size": "50",
+            "ergonomic": false,
+            "ortholinear": true,
+            "colors":[ "Black" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "Sentraq",
+            "name": "65% RGB Underglow PCB",
+            "sellers": [ "https://sentraq.com/products/65-rgb-underglow-pcb?_pos=5&_sid=54804b4a9&_ss=r&variant=44268812490" ],
+            "price": 54.99,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "manufacturer": "SwitchTop",
+            "name": "Helix Keyboard PCB",
+            "sellers": [ "https://www.switchtop.com/product/helix-keyboard-kit" ],
+            "price": 28.00,
+            "size": "60",
+            "ergonomic": true,
+            "ortholinear": true,
+            "colors":[ "Black" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "Custom",
+            "usboptions": [
+                "Custom"
+            ]
         }
-       
+
+
+
+        
     ]
 }
