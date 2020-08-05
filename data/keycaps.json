@@ -2,8 +2,8 @@
     "keycaps":[
         {
             "id": 0,
-            "Designer": "KBDFans",
-            "sellers": ["https://kbdfans.com/collections/case/products/60-wood-case-for-anne-pro-2"],
+            "from": "KBDFans",
+            "vendorsURL": ["https://kbdfans.com/collections/case/products/60-wood-case-for-anne-pro-2"],
             "name": "EPBT X BIIP COOL KIDS",
             "profile": "Cherry",
             "material": "PBT",
