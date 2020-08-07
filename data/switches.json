@@ -1,11 +1,33 @@
+
+ {
+    "id": ,
+    "from": "",
+    "vendorsURL": [],
+    "name": ,
+    "yearintroduced": "",
+    "isAvailable":,
+    "type": ,
+    "operating_force": ,
+    "bottomout_force": ,
+    "pretravel": ,
+    "totaltravel": 
+}
+
+
+
+
+
+
+
 {
     "switches": [
         {
-            "id": 0,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Red",
             "yearintroduced": "2008",
+            "isAvailable":true,
             "type": "linear",
             "rgbvariant": true,
             "operating_force": 45,
@@ -14,11 +36,12 @@
             "totaltravel": 4
         },
         {
-            "id": 1,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Blue",
             "yearintroduced": "2007",
+            "isAvailable":true,
             "type": "clicky",
             "rgbvariant": true,
             "operating_force": 60,
@@ -27,11 +50,12 @@
             "totaltravel": 4
         },
         {
-            "id": 2,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Brown",
             "yearintroduced": "1994",
+            "isAvailable":true,
             "type": "tactile",
             "rgbvariant": true,
             "operating_force": 55,
@@ -40,11 +64,12 @@
             "totaltravel": 4
         },
         {
-            "id": 3,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Black",
             "yearintroduced": "1984",
+            "isAvailable":true,
             "type": "linear",
             "rgbvariant": true,
             "operating_force": 60,
@@ -53,11 +78,12 @@
             "totaltravel": 4
         },
         {
-            "id": 4,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Silent Red",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "rgbvariant": true,
             "operating_force": 45,
@@ -66,11 +92,12 @@
             "totaltravel": 3.7
         },
         {
-            "id": 5,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Silent Black",
             "yearintroduced": "2007",
+            "isAvailable":true,
             "type": "linear",
             "rgbvariant": true,
             "operating_force": 60,
@@ -79,11 +106,12 @@
             "totaltravel": 3.7
         },
         {
-            "id": 6,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Speed Silver",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "rgbvariant": true,
             "operating_force": 45,
@@ -92,11 +120,12 @@
             "totaltravel": 3.4
         },
         {
-            "id": 7,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Green",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "rgbvariant": false,
             "operating_force": 80,
@@ -105,11 +134,12 @@
             "totaltravel": 4
         },
         {
-            "id": 8,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Grey",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "rgbvariant": false,
             "operating_force": 80,
@@ -118,11 +148,12 @@
             "totaltravel": 4
         },
         {
-            "id": 9,
+            "id": , 
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Clear",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "rgbvariant": false,
             "operating_force": 65,
@@ -131,11 +162,12 @@
             "totaltravel": 4
         },
         {
-            "id": 10,
+            "id": ,
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Low Profile Red",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "rgbvariant": true,
             "operating_force": 45,
@@ -144,11 +176,12 @@
             "totaltravel": 3.2
         },
         {
-            "id": 11,
+            "id": ,
             "from": "Cherry",
             "vendorsURL": [],
             "name": "MX Low Profile Speed",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "rgbvariant": true,
             "operating_force": 45,
@@ -157,11 +190,12 @@
             "totaltravel": 3.2
         },
         {
-            "id": 12,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Red",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 45,
             "bottomout_force": 0,
@@ -169,11 +203,12 @@
             "totaltravel": 3.8
         },
         {
-            "id": 13,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Black",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 60,
             "bottomout_force": 0,
@@ -181,11 +216,12 @@
             "totaltravel": 3.8
         },
         {
-            "id": 14,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Blue",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 50,
             "bottomout_force": 0,
@@ -193,11 +229,12 @@
             "totaltravel": 3.8
         },
         {
-            "id": 15,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Brown",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 50,
             "bottomout_force": 0,
@@ -205,11 +242,12 @@
             "totaltravel": 3.8
         },
         {
-            "id": 16,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Gold",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -217,11 +255,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 17,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Bronze",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 50,
             "bottomout_force": 65,
@@ -229,11 +268,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 18,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Copper",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -241,11 +281,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 19,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Silver",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 50,
             "bottomout_force": 70,
@@ -253,11 +294,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 20,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Burgundy",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 50,
             "bottomout_force": 70,
@@ -265,11 +307,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 21,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Purple",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 50,
             "bottomout_force": 70,
@@ -277,11 +320,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 22,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Light Green",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -289,11 +333,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 23,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Speed Navy",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 70,
             "bottomout_force": 90,
@@ -301,11 +346,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 24,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Speed Heavy Dark Yellow",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 70,
             "bottomout_force": 90,
@@ -313,11 +359,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 25,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Speed Heavy Burnt Orange",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 70,
             "bottomout_force": 100,
@@ -325,11 +372,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 26,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Speed Heavy Pale Blue",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 70,
             "bottomout_force": 90,
@@ -337,11 +385,12 @@
             "totaltravel": 3.5
         },
         {
-            "id": 27,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Pro Berry",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 70,
             "bottomout_force": 95,
@@ -349,11 +398,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 28,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Pro Blum",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 70,
             "bottomout_force": 95,
@@ -361,11 +411,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 29,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Pro Sage",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 75,
             "bottomout_force": 95,
@@ -373,11 +424,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 30,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box Red",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -385,11 +437,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 31,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box White",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -397,11 +450,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 32,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box Brown",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -409,11 +463,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 33,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box Black",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 60,
             "bottomout_force": 70,
@@ -421,11 +476,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 34,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box Dark Yellow",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 70,
             "bottomout_force": 80,
@@ -433,11 +489,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 35,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box Burnt Orange",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 60,
             "bottomout_force": 80,
@@ -445,11 +502,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 36,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box Pale Blue",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 60,
             "bottomout_force": 80,
@@ -457,11 +515,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 37,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "Box Navy",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 60,
             "bottomout_force": 90,
@@ -469,11 +528,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 38,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
-            "name": "Box ade",
+            "name": "Box Jade",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -481,11 +541,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 39,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
-            "name": "Royal",
+            "name": "Box Royal",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 40,
             "bottomout_force": 70,
@@ -493,11 +554,12 @@
             "totaltravel": 3.6
         },
         {
-            "id": 40,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Red",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -505,11 +567,12 @@
             "totaltravel": 3
         },
         {
-            "id": 41,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc White",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 50,
             "bottomout_force": 70,
@@ -517,11 +580,12 @@
             "totaltravel": 3
         },
         {
-            "id": 42,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Brown",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -529,11 +593,12 @@
             "totaltravel": 3
         },
         {
-            "id": 43,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Dark Yellow",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 60,
             "bottomout_force": 70,
@@ -541,11 +606,12 @@
             "totaltravel": 3
         },
         {
-            "id": 44,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Burnt Orange",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 60,
             "bottomout_force": 70,
@@ -553,11 +619,12 @@
             "totaltravel": 3
         },
         {
-            "id": 45,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Pale Blue",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "clicky",
             "operating_force": 60,
             "bottomout_force": 70,
@@ -565,11 +632,12 @@
             "totaltravel": 3
         },
         {
-            "id": 46,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Navy",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 60,
             "bottomout_force": 70,
@@ -577,11 +645,12 @@
             "totaltravel": 3
         },
         {
-            "id": 47,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Jade",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -589,11 +658,12 @@
             "totaltravel": 3
         },
         {
-            "id": 48,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [],
             "name": "LP Choc Jade",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 50,
             "bottomout_force": 60,
@@ -601,13 +671,14 @@
             "totaltravel": 3
         },
         {
-            "id": 49,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [
                 "https://novelkeys.xyz/collections/switches/products/kailh-box-silent-switches?variant=32535026663517"
             ],
             "name": "Box Silent Pink",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "linear",
             "operating_force": 35,
             "bottomout_force": 45,
@@ -615,18 +686,307 @@
             "totaltravel": 3.6
         },
         {
-            "id": 50,
+            "id": ,
             "from": "Kailh",
             "vendorsURL": [
                 "https://novelkeys.xyz/collections/switches/products/kailh-box-silent-switches?variant=32535026663517"
             ],
             "name": "Box Silent Brown",
             "yearintroduced": "",
+            "isAvailable":true,
             "type": "tactile",
             "operating_force": 45,
             "bottomout_force": 60,
             "pretravel": 1.8,
             "totaltravel": 3.6
-        }
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Clear",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 35,
+            "bottomout_force": 110,
+            "pretravel": 2.0,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Red",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 45,
+            "bottomout_force": 110,
+            "pretravel": 2.0,
+            "totaltravel": 4.0 
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Yellow",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 50,
+            "bottomout_force": 110,
+            "pretravel": 2.0,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Black",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 60,
+            "bottomout_force": 110,
+            "pretravel": 2.0,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Brown",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "tactile",
+            "operating_force": 55,
+            "bottomout_force": 110,
+            "pretravel": 2.0,
+            "totaltravel": 4.0 
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Blue",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "clicky",
+            "operating_force": 60,
+            "bottomout_force": 110,
+            "pretravel": 2.3,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Green",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "clicky",
+            "operating_force": 80,
+            "bottomout_force": 110,
+            "pretravel": 2.3,
+            "totaltravel": 4.0 
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Silent Clear",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 35,
+            "bottomout_force": null,
+            "pretravel": null,
+            "totaltravel": 4.0 
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Silent Red",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 45,
+            "bottomout_force": null,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Silent Yellow",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 50,
+            "bottomout_force": null,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Silent Black",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 60,
+            "bottomout_force": null,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Silent Brown",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "tactile",
+            "operating_force": 55,
+            "bottomout_force": null,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Black Inks",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linaer",
+            "operating_force": 60,
+            "bottomout_force": 70,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Silent Black Inks",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 60,
+            "bottomout_force": 70,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Red Inks",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 45,
+            "bottomout_force": 60,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Yellow Inks",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear ",
+            "operating_force": 60,
+            "bottomout_force": 67,
+            "pretravel": null,
+            "totaltravel": 3.4 
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Blue Inks",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "clicky",
+            "operating_force": 60,
+            "bottomout_force": 70,
+            "pretravel": null,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Milk Black",
+            "yearintroduced": "",
+            "isAvailable": false,
+            "type": "linear",
+            "operating_force": 60,
+            "bottomout_force": null,
+            "pretravel": null,
+            "totaltravel":  4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "KBDFans x Mito Laser - Cyan",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 60,
+            "bottomout_force": ,
+            "pretravel": 2.0,
+            "totaltravel": 4.0 
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "KBDFans x Mito Laser - Pink",
+            "yearintroduced": "",
+            "isAvailable": true,
+            "type": "linear",
+            "operating_force": 70,
+            "bottomout_force": null,
+            "pretravel": 2.0,
+            "totaltravel": 4.0 
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "N1S",
+            "yearintroduced": "",
+            "isAvailable": false,
+            "type": "linear",
+            "operating_force": 67,
+            "bottomout_force": 110,
+            "pretravel": 2.0,
+            "totaltravel": 4.0
+        },
+        {
+            "id": ,
+            "from": "Gateron",
+            "vendorsURL": [],
+            "name": "Novelkeys x Gateron Glow",
+            "yearintroduced": "",
+            "isAvailable": false,
+            "type": "linear",
+            "operating_force": 50,
+            "bottomout_force": 110,
+            "pretravel": 2.0,
+            "totaltravel": 4.0
+        },
+
+
     ]
 }
