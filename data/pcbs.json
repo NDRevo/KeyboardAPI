@@ -1480,6 +1480,78 @@
         },
         {
             "id": 1,
+            "from": "NovelKeys",
+            "name": "H87A",
+            "vendorsURL": [ "https://novelkeys.xyz/collections/diy-kits/products/h87a-pcb-by-hineybush" ],
+            "price": 50.00,
+            "size": "87",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Red","Black" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK",
+            "usboptions": [
+                "Mini-USB"
+            ]
+        },
+        {
+            "id": 1,
+            "from": "NovelKeys",
+            "name": "WT60-C KATE",
+            "vendorsURL": [ "https://novelkeys.xyz/collections/diy-kits/products/wt60-c-kate-pcb" ],
+            "price": 70.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Pink" ],
+            "rgbunderglow": true,
+            "rgbswitch": true,
+            "hotswappable": false,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "from": "NovelKeys",
+            "name": "WT60-D WEIRDFLEX",
+            "vendorsURL": [ "https://novelkeys.xyz/collections/diy-kits/products/wt60-d-weirdflex-pcb" ],
+            "price": 60.00,
+            "size": "60",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "Pink" ],
+            "rgbunderglow": false,
+            "rgbswitch": false,
+            "hotswappable": false,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
+            "from": "NovelKeys",
+            "name": "NK65",
+            "vendorsURL": [ "https://novelkeys.xyz/collections/diy-kits/products/nk65-pcb" ],
+            "price": 50.00,
+            "size": "65",
+            "ergonomic": false,
+            "ortholinear": false,
+            "colors":[ "White", "Black" ],
+            "rgbunderglow": false,
+            "rgbswitch": true,
+            "hotswappable": true,
+            "firmware": "QMK/VIA",
+            "usboptions": [
+                "Type-C"
+            ]
+        },
+        {
+            "id": 1,
             "from": "OLKB",
             "name": "Planck PCB Rev 6.1",
             "vendorsURL": [ "https://olkb.com/products/planck-pcb" ],
