@@ -32,7 +32,7 @@ router.get('/', function (req, res) {
 
 
 //Redirects to readme 
-router.get('/kbapi', function (req, res) {
+router.get('/kbapi/doc', function (req, res) {
     res.redirect('https://keyboardapi.readme.io/reference');
 });
 router.get('/commissions', function (req, res) {
